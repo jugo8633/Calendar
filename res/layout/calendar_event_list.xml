@@ -1,0 +1,81 @@
+
+<RelativeLayout android:id="@+id/rlEventListMain" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+
+<TextView android:id="@+id/tvEventListTitle" 
+android:layout_height="30dip" 
+android:gravity="left|center_vertical" 
+android:paddingLeft="10dip" 
+android:layout_width="fill_parent" 
+android:visibility="gone" android:textColor="@android:color/HP.Color.Gray1" android:textSize="@android:dimen/HP.Type.14" android:textStyle="bold" android:background="@android:color/HP.Color.Blue3"/>
+
+<RelativeLayout android:id="@+id/rlEventListDetailMain" 
+android:layout_width="fill_parent" 
+android:layout_height="50dip">
+
+<ImageView android:id="@+id/ivRightArrow" 
+android:layout_width="10dip"  
+android:layout_height="14dip"
+android:layout_alignParentRight="true" 
+android:layout_alignParentTop="true"
+android:layout_marginRight="5dip" 
+android:background="@drawable/u_content_day_10x14_01" 
+android:layout_marginTop="7dip" android:visibility="invisible"> 
+</ImageView>
+
+
+<TextView android:id="@+id/tvEventListTime" 
+android:layout_width="150dip" 
+android:layout_height="wrap_content" 
+android:layout_alignParentTop="true"
+android:layout_toLeftOf="@+id/ivRightArrow" 
+android:paddingTop="5dip" 
+android:gravity="center" 
+android:textSize="@android:dimen/HP.Type.14" 
+android:textColor="@android:color/HP.Color.Gray2"/>
+
+
+<ImageView android:layout_toLeftOf="@+id/tvEventListTime" 
+android:id="@+id/ivLeftArrow" 
+android:layout_width="10dip" 
+android:layout_height="14dip"
+android:layout_alignParentTop="true" 
+android:background="@drawable/u_content_day_10x14_02" 
+android:layout_marginTop="7dip" android:visibility="invisible">
+</ImageView>
+
+
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:gravity="left|center_vertical" 
+android:paddingLeft="10dip" 
+android:layout_alignParentTop="true" 
+android:layout_alignParentLeft="true" 
+android:paddingTop="5dip" 
+android:layout_toLeftOf="@+id/ivLeftArrow" 
+android:id="@+id/tvEventListName"
+android:singleLine="true"
+android:textSize="@android:dimen/HP.Type.14" 
+android:textColor="@android:color/HP.Color.Blue3"/>
+
+<TextView android:id="@+id/tvEventListEvent"  
+android:layout_below="@id/tvEventListName"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentBottom="true" 
+android:layout_marginLeft="10dip" 
+android:textSize="@android:dimen/HP.Type.18" 
+android:textColor="@android:color/HP.Color.Gray1" 
+android:layout_alignParentLeft="true" 
+android:layout_marginRight="30dip" android:singleLine="true"/>
+
+
+
+
+
+</RelativeLayout>
+
+</RelativeLayout>
+

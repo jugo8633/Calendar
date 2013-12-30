@@ -1,0 +1,24 @@
+
+
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent" 
+android:id="@+id/rlFootbarChkMenu" 
+android:background="@android:color/black" 
+android:layout_height="80dp">
+
+<ImageView 
+android:id="@+id/ivLine01" 
+android:src="@drawable/h_line800" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+
+<TextView 
+android:id="@+id/tvFootbarChkMenuOK" 
+android:text="@string/ok" 
+android:gravity="center" 
+android:layout_alignParentRight="true" 
+android:layout_centerVertical="true" 
+android:layout_marginRight="30dp" android:textSize="@android:dimen/HP.Type.18" android:textStyle="bold" style="@android:style/HP.Button.Action" android:textColor="@android:color/white" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<RelativeLayout 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/ryCalendarSettingMain" android:background="@android:color/black">
+
+<ListView 
+android:id="@+id/lvCalendarSettingList"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:isScrollContainer="true" 
+android:choiceMode="singleChoice" 
+android:scrollbarTrackVertical="@drawable/scrolling_bar_v" 
+android:layout_below="@+id/ivLine" 
+android:background="@android:color/black" 
+android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical_blue"/>
+
+</RelativeLayout>

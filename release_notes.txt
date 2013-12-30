@@ -1,0 +1,1194 @@
+Module Name=Calendar
+
+Module Version=00.00.00.0112
+Author=Chance Wang
+Release Time=2010/08/26 14:00
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007551: [Calendar] The month view can't automatic keep consistent with the day view change.
+Known Issues:
+    None.
+
+Module Version=00.00.00.0111
+Author=Chance Wang
+Release Time=2010/08/25 08:25
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007502: [CR General] Fix gramma error and spelling error in FXN Apps - Part 1
+Known Issues:
+    None.
+
+Module Version=00.00.00.0110
+Author=Jugo Ju
+Release Time=2010/08/19 08:25
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007496: [Calendar] The time for the event in Home screen is inconsistent with the time in day view  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0109
+Author=Evan Chung
+Release Time=2010/08/18 10:00
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007506: Calendar app crashed when launch a print job in Calendar  
+Known Issues:
+    None.
+
+Module Version=00.00.00.0108
+Author=Jugo Ju
+Release Time=2010/08/13 13:40
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007219: The buttons on the bottom bar are not center aligned in landscape mode in Calendar  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0107
+Author=Jugo Ju
+Release Time=2010/08/10 10:25
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007143: The marks of event can not disappear after logout calendar app  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0106
+Author=Jugo Ju
+Release Time=2010/08/10 09:15
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007198: Some events can not show on widget view 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0105
+Author=Jugo Ju
+Release Time=2010/08/09 17:45
+Update Features:  
+    1. add <uses-permission android:name="com.hp.ij.docksyncservice.permission.PRINT_APP"/> in AndroidManifest.xml
+Fixed Issues:
+    None.
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0104
+Author=Jugo Ju
+Release Time=2010/08/05 15:55
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007270: Touch "Back" button cannot skip sync. 
+    2. fix mantis 0007333: Cannot edit the date of existing event.
+    3. fix mantis 0007362: [Calendar]: Today does not change on Zeus_Calendar_Day_H01 screen or Zeus_Calendar_Month_H02 screen according to the current Dat   
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0103
+Author=Jugo Ju
+Release Time=2010/08/04 14:55
+Update Features:  
+    1. Add Copyright of Hewlett-Packard in every java files.
+Fixed Issues:
+    none  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0102
+Author=Jugo Ju
+Release Time=2010/08/04 08:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007304: [Calendar] There is no message pops up when touching OK button without inputting Email and Password  
+    2. fix mantis 0006746: Calendar widgets no refresh screen when new day  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0101
+Author=Jugo Ju
+Release Time=2010/08/03 17:50
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007304: [Calendar] There is no message pops up when touching OK button without inputting Email and Password   
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0100
+Author=Jugo Ju
+Release Time=2010/08/02 14:35
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007198: Some events can not show on widget view   
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0099
+Author=Jugo Ju
+Release Time=2010/08/02 09:15
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007219: [Net News/Calendar/Fweather] The buttons on the bottom bar are not center aligned in landscape mode  
+    2. fix mantis 0007101: [Calendar]: Time drop downs is started at 12am when adding event from Zemea.
+    3. fix mantis 0005531: [35567] New Event_H01: The time difference between 2 options shall be 15 minutes.  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0098
+Author=Evan Chung
+Release Time=2010/07/30 11:00
+Update Features:  
+    Update printing preview
+Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0097
+Author=Evan Chung
+Release Time=2010/07/28 13:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007167: [Calendar]Background is black while print confirm screen pops up on Calendar print preview screen. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0096
+Author=Jugo Ju
+Release Time=2010/07/22 08:00
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007203: The widget view can not change to Calendar icon when logout calendar app  
+    2. fix mantis 0006915: [Calendar] The "Edit text" screen is missing after rotating Zemea orientation on Calendar log in screen.
+    3. fix mantis 0007032: [Calendar] The keyboard screen is missing after changing the orientation of Zemea in Calendar app / FWeather app / Clock app.  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0095
+Author=Evan Chung
+Release Time=2010/07/21 17:00
+Update Features:  
+    Update Printing report
+Fixed Issues:
+    1. fix mantis 0007173: The Calendar content on page shown abnormally when print out 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0094
+Author=Jugo Ju
+Release Time=2010/07/19 11:10
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007164: The data on widget can not disappear when touch "logout" after turn off wifi. 
+    2. fix mantis 0006754: Widget view show incorrectly  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0093
+Author=Evan Chung
+Release Time=2010/07/15 11:00
+Update Features:  
+    Use Html for Printing
+Fixed Issues:
+    None 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0092
+Author=Evan Chung
+Release Time=2010/07/14 15:30
+Update Features:  
+    Printing preview "day view"
+Fixed Issues:
+    1. fix mantis 0006952: The "Print Preview" display abnormally. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0091
+Author=Jugo Ju
+Release Time=2010/07/14 10:50
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0006971: The events time order display incorrectly at widget view 
+    2. fix mantis 0007049: [Calendar] Zeus_Calendar_Setting_H09 can't pop up when router disconnect from internet. 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0090
+Author=Evan Chung
+Release Time=2010/07/13 17:00
+Update Features:  
+    1. Update printing preview, init print selection. 
+Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0089
+Author=Evan Chung
+Release Time=2010/07/13 09:00
+Update Features:  
+    1. Update printing init, print from html files. 
+Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0088
+Author=Jugo Ju
+Release Time=2010/07/12 08:19
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis 0007088: [Calendar]The downloading is canceled at screen rotation
+    2. fix mantis 0007082: Calendar event share status error  
+    3. fix mantis 0007065: calendar login exception 
+    4. fix mantis 0007067: calendar add event exception 
+    5. fix mantis 0007069: Calendar login progressive bar 
+    6. fix mantis 0006822: "Edit" and "Delete" option of shared calendar show enable
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0087
+Author=Jugo Ju
+Release Time=2010/07/08 08:35
+Update Features:  
+    1. modify printing preview
+    2. update event bar button, use HpFootbarButton
+Fixed Issues:
+    None. 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0086
+Author=Jugo Ju
+Release Time=2010/07/07 14:15
+Update Features:  
+    1. update service proxy function
+Fixed Issues:
+    None. 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0085
+Author=Jugo Ju
+Release Time=2010/07/06 09:20
+Update Features:  
+    1. update foot bar button, use HpFootbarButton
+Fixed Issues:
+    None. 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0084
+Author=Jugo Ju
+Release Time=2010/06/30 18:15
+Update Features:  
+    1. update widget sync time, every 30 minutes
+Fixed Issues:
+    1. fix 0006951: The event time show incorrectly at widget view 
+    2. fix 0006961: Calendar app still remain in "Synchronizing calendar" page when disconnect/reconnect Wi-Fi.
+    3. fix 0006362: "Event Title" only display partially in Calendar app 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0083
+Author=Evan Chung
+Release Time=2010/06/30 15:30
+Update Features:  
+    1. Update printing preview 
+Fixed Issues:
+    None. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0082
+Author=Evan Chung
+Release Time=2010/06/30 14:00
+Update Features:  
+    1. Update printing preview 
+Fixed Issues:
+    None. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0081
+Author=Evan Chung
+Release Time=2010/06/29 17:00
+Update Features:  
+    1. Update printing preview 
+Fixed Issues:
+    1. 0006902 : [Calendar] Zeus_Calendar_Print_H02 screen is inconsistent with Zeus_Calendar_UES_V1.3-20100514.pdf. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0080
+Author=Jugo Ju
+Release Time=2010/06/29 14:15
+Update Features:  
+    1. remove log print
+Fixed Issues:
+    None.
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0079
+Author=Jugo Ju
+Release Time=2010/06/28 14:40
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix 0006901: It will return month view after adding or editing one event  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0078
+Author=Jugo Ju
+Release Time=2010/06/25 18:10
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix 0006888: It lack of "where" item at Calendar_Day_H02 
+    2. fix 0006715: The given time isn't default selected on "Edit Event" page
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0077
+Author=Evan Chung
+Release Time=2010/06/25 15:00
+Update Features:  
+    Update Printing function.
+Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0076
+Author=Evan Chung
+Release Time=2010/06/24 20:30
+Update Features:  
+    Update Printing function.
+Fixed Issues:
+    1. 0006798 : The article is blank in "Print Preview". 
+    2. 0006800 : Print result is abnormal in landscape mode or portrait mode. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0075
+Author=Jugo Ju
+Release Time=2010/06/24 17:50
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix 0006910: [Calendar] Zemea crashes when adding a new event on Calendar flow
+    2. fix 0006619: System has no response or pops up "Sorry!" error when deselect calendars to touch "Day View"
+    3. fix 0006364: The event doesn't change along with changing the day in "Day View" 
+    4. fix 0006909: It will pop up a dialog that the calendar application has stopped 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0074
+Author=Jugo Ju
+Release Time=2010/06/24 10:41
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix service null pointer exception 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0073
+Author=Evan Chung
+Release Time=2010/06/23 16:00
+Update Features:  
+    None.
+Fixed Issues:
+    1. 0006821 : The print result date is different from event' date. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0072
+Author=Evan Chung
+Release Time=2010/06/23 11:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. 0006161 : Print preview and sending print UI display incorrect 
+    2. 0006380 : The event in Printer Preview doesn't change from current page to other pages when gesture horizontally 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0071
+Author=Jugo Ju
+Release Time=2010/06/22 14:10
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis:0006802: The event time order display incorrectly 
+    2. fix mantis:0006870: [Calendar] Checked calendar display as selected state when touching Back button on Select Calendars screen
+    3. fix mantis:0006866: [Calendar] The items of ¡§Edit text¡¨ screen is black on Calendar login screen
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0070
+Author=Jugo Ju
+Release Time=2010/06/21 16:00
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis:0006545: DUT will be in blank screen after "Sorry!" error 
+    2. fix mantis:0006508: Press "Back" key state is the same as "Home" key.
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0069
+Author=Evan Chung
+Release Time=2010/06/18 20:00
+Update Features:  
+    1. Update printing BaseProcess
+    2. Update printing preview layout
+Fixed Issues:
+    1. None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0068
+Author=Jugo Ju
+Release Time=2010/06/18 18:10
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix can't add event after delete event bug
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0067
+Author=Jugo Ju
+Release Time=2010/06/18 14:10
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis: 0005253: The month view not only show the six months after and before  
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0066
+Author=Jugo Ju
+Release Time=2010/06/18 11:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis: 0006715: The given time isn't default selected on "Edit Event" page. 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0065
+Author=Jugo Ju
+Release Time=2010/06/17 17:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis: 0006754: Widget view show incorrectly 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0064
+Author=Jugo Ju
+Release Time=2010/06/11 17:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis: 0006771: It will pop a dialog that the calendar application has stopped 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0063
+Author=Jugo Ju
+Release Time=2010/06/11 15:30
+Update Features:  
+    None.
+Fixed Issues:
+    1. fix mantis: 0006716: The "Calendar" contextual button function is abnormal.
+    2. fix mantis: 0006745: The operation has been saved after touch back or contextual button to return.
+Known Issues:
+    None.
+        
+Module Version=00.00.00.0062
+Author=Jugo Ju
+Release Time=2010/06/11 17:40
+Update Features:  
+    1. turn performance
+Fixed Issues:
+    1. fix mantis: 0006714: System pops up a redundant "OK" button when select the time in "When". 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0061
+Author=Jugo Ju
+Release Time=2010/06/10 15:50
+Update Features:  
+    None
+Fixed Issues:
+    1. fix mantis: 0006725: Users can not touch other date to show date events in day view
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0060
+Author=Evan Chung
+Release Time=2010/06/10 10:00
+Update Features:  
+    1. Update Event view printing preview     
+Fixed Issues:
+    1. 0006732 : The print preview of event view show incorrectly 
+Known Issues:
+    None.    
+
+Module Version=00.00.00.0059
+Author=Jugo Ju
+Release Time=2010/06/09 12:20
+Update Features:  
+    None
+Fixed Issues:
+    1. fix new event weekly recurrence issue 
+    
+Module Version=00.00.00.0058
+Author=Jugo Ju
+Release Time=2010/06/08 11:35
+Update Features:  
+    1. update service, add proxy , libs\layoutlib.jar 
+Fixed Issues:
+    None 
+    
+Module Version=00.00.00.0057
+Author=Evan Chung
+Release Time=2010/06/08 11:00
+Update Features:  
+    1. Update Day view event list   
+Fixed Issues:
+    None
+
+Module Version=00.00.00.0056
+Author=Jugo Ju
+Release Time=2010/06/07 15:50
+Update Features:  
+    None 
+Fixed Issues:
+    1. fix mantis: 0005269: Display the scroll bar at day view and there is a blemish on day view 
+    
+Module Version=00.00.00.0055
+Author=Evan Chung
+Release Time=2010/06/04 18:00
+Update Features:  
+    1. Fix Day view event list layout 
+Fixed Issues:
+    None 
+
+Module Version=00.00.00.0054
+Author=Jugo Ju
+Release Time=2010/06/04 15:00
+Update Features:  
+    1. Link Source setting
+Fixed Issues:
+    None 
+    
+Module Version=00.00.00.0053
+Author=Evan Chung
+Release Time=2010/06/04 11:00
+Update Features:  
+    1. Fix print preview layout 
+Fixed Issues:
+    None 
+
+Module Version=00.00.00.0052
+Author=Jugo Ju
+Release Time=2010/06/03 15:35
+Update Features:  
+    1. modify event all day time state
+    2. modify reminder state when no reminder
+    
+Fixed Issues:
+    1. None 
+    2. None
+    
+Module Version=00.00.00.0051
+Author=Evan Chung
+Release Time=2010/06/03 15:00
+Update Features:  
+    1. Fix Event view timezone 
+    2. Update Calendar icon
+    
+Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0050
+Author=Jugo Ju
+Release Time=2010/06/03 11:00
+Update Features:  
+    1. modify event all day time display
+    
+Fixed Issues:
+    1. Fix 0005285: The informations at edit have something wrong 
+    2. None
+
+Module Version=00.00.00.0049
+Author=Evan Chung
+Release Time=2010/06/02 18:00
+Update Features:  
+    1. Fix reminder bug
+    
+Fixed Issues:
+    1. 0006422 : Don't pop up reminder of shared calendar 
+    2. 0006347 : Reminder display incorrectly when add several events with reminder 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0048
+Author=Jugo Ju
+Release Time=2010/06/02 08:40
+Update Features:  
+    1. remove commui
+    2. source code format
+Fixed Issues:
+     None
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0047
+Author= Evan Chung
+Release Time=2010/06/01 19:00
+Update Features:  
+    1. Fix all day , timezone event bug.
+    2. Fix print preview bug
+    3. Fix add new event bug.
+Fixed Issues:
+    1. 0006622 : It will pop up a dialog after adding new event 
+    2. 0006623 : It will print out a blank page when change another printer 
+    3. 0005238 : The events show at day view are not belong to the target day 
+    4. 0006155 : One day has event but no dot display 
+    5. 0006228 : Don't display dot if add event from Calendar Web 
+    6. 0006508 : Press "Back" key state is the same as "Home" key.
+    7. 0006619 : System has no response or pops up "Sorry!" error when deselect calendars to touch "Day View" 
+    8. 0006545 : DUT will be in blank screen after "Sorry!" error 
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0046
+Author=Jugo Ju
+Release Time=2010/06/01 17:55
+Update Features:  
+    1. fix mantis 0006648: Touch "back" icon return previous interface error (print view) 
+Fixed Issues:
+    None
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0045
+Author=Jugo Ju
+Release Time=2010/06/01 17:25
+Update Features:  
+    1. fix mantis 0006159: The flow is incorrect when delete event 
+Fixed Issues:
+    None
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0044
+Author=Jugo Ju
+Release Time=2010/06/01 12:15
+Update Features:  
+    1. fix new event exception
+yixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0043
+Author=Jugo Ju
+Release Time=2010/05/28 18:10
+Update Features:  
+    1. fix recurrence data sync
+Fixed Issues:
+    None
+Known Issues:
+    None.
+        
+Module Version=00.00.00.0042
+Author=Jugo Ju
+Release Time=2010/05/28 17:15
+Update Features:  
+    1. fix service string parsing bug
+    2. add HpActivity in CalendarApp classFixed Issues:
+    None
+Known Issues:
+    None
+    
+Module Version=00.00.00.0041
+Author=Jugo Ju
+Release Time=2010/05/28 14:50
+Update Features:  
+    1. code formatFixed Issues:
+    None
+Known Issues:
+    None
+    
+Module Version=00.00.00.0040
+Author=Jugo Ju
+Release Time=2010/05/28 11:00
+Update Features:  
+    1. add loading window when app restart
+Fixed Issues:
+    None
+Known Issues:
+    None
+    
+Module Version=00.00.00.0039
+Author=Jugo Ju
+Release Time=2010/05/25 20:20
+Update Features:  
+    1. add edit event recurrence data
+Fixed Issues:
+    None
+Known Issues:
+    None
+    
+Module Version=00.00.00.0038
+Author=Jugo Ju
+Release Time=2010/05/21 12:00
+Update Features:  
+    1. Update widget
+Fixed Issues:
+    None
+Known Issues:
+    None
+    
+Module Version=00.00.00.0037
+Author=Evan Chung
+Release Time=2010/05/20 17:00
+Update Features:  
+    1. Update printing service
+Fixed Issues:
+    None
+Known Issues:
+    None
+
+Module Version=00.00.00.0036
+Author=Evan Chung
+Release Time=2010/05/20 16:00
+Update Features:  
+    1. Update Service 
+Fixed Issues:
+    None
+Known Issues:
+    None
+
+Module Version=00.00.00.0035
+Author=Evan Chung
+Release Time=2010/05/20 10:00
+Update Features:  
+    1. Update OSK
+    2. Fix add event exception
+Fixed Issues:
+    1. 0006463 : The day view show time of event incorrectly when add one event that time for all day 
+    2. 0006492 : Touch "Add" button will pop up a dialog of unexpectedly  
+    
+Known Issues:
+    None
+
+Module Version=00.00.00.0034
+Author=Evan Chung
+Release Time=2010/05/17 19:00
+Update Features:  
+    1. Fix printing orientation
+Fixed Issues:
+    1. 0005197 : The "print" function of calendar can't work. 
+    2. 0006161 : Print preview and sending print UI display incorrect 
+    3. 0006253 : Can't print 
+    
+Known Issues:
+    None
+
+Module Version=00.00.00.0033
+Author=Evan Chung
+Release Time=2010/05/14 20:00
+Update Features:  
+    1. Fix print preview bug
+    2. Fix Add event exception
+    3. Fix Event view title bugFixed Issues:
+    1. 0006361 : Event time display is covered with "Event Title" when the description of "Event Title" is too long 
+    2. 0006232 : Pop up error message when touch print on Day view and event page 
+Known Issues:
+    None
+
+Module Version=00.00.00.0032
+Author=Evan Chung
+Release Time=2010/05/13 21:00
+Update Features:  
+    1. Update printing function
+    2. Fix Event view bugFixed Issues:
+    1. 0006272 : Don't display reminder in event page  
+Known Issues:
+    None
+
+Module Version=00.00.00.0031
+Author=Jugo Ju
+Release Time=2010/05/12 15:45
+Update Features:  
+    1. Fix Edit Mode Date, Time, Reminder information sync with web data.Fixed Issues:
+    1. 0006143 : Some settings cannot be saved after clicking the "Done" of the screen of editing the calendar event. 
+Known Issues:
+    1. 0006143 : recurence data can't sync in calendar edit mode.
+    
+Module Version=00.00.00.0030
+Author=Evan Chung
+Release Time=2010/05/11 17:00
+Update Features:  
+    1. Fix login in account bug
+    2. Fix logout exception bug
+    3. Fix All day event bugFixed Issues:
+    1. 0006413 : It will pop up exception when logout 
+    2. 0006417 : Event display chaos between account A and B 
+    3. 0006395 : Pops up "Sorry!" after touched "More->Synch" if disconnect the internet.
+    4. 0006387 : The system pops up "Sorry!" after logout calendar and returning to Home Screen  
+Known Issues:
+    None.
+
+Module Version=00.00.00.0029
+Author=Evan Chung
+Release Time=2010/05/10 10:00
+Update Features:  
+    1. Integrate print function
+    2. fix reminder bugFixed Issues:
+    1. 0006347 : Reminder display incorrectly when add several events with reminder 
+    2. 0006355 : Calendar month view's event data is not synchronized with Google calendar 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0028
+Author=Evan Chung
+Release Time=2010/05/05 10:00
+Update Features:  
+    1. Fix error handle when sync without Wifi
+    2. Fix reminder pop out message format Fixed Issues:
+    1. 0005289 : There will be a wrong message when no Wi-Fi 
+    2. 0006199 : Disconnect the network will prompt error when synchronize with Google Calendar 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0027
+Author=Evan Chung
+Release Time=2010/04/30 17:00
+Update Features:  
+    1. Add Error handling
+    2. Fix Gallery gesture bugFixed Issues:
+    1. 0005282 : Others calendar show wrong 
+    2. 0006001 : The error message of calendar couldn't show correctly 
+    3. 0006272 : Don't display reminder in event page 
+    4. 0006254 : No any reminder when reach the reminder time 
+    5. 0006133 : Error occur when add event 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0026
+Author=Evan Chung
+Release Time=2010/04/27 19:00
+Update Features:  
+    1. Update Service codeFixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0025
+Author=Evan Chung
+Release Time=2010/04/21 15:00
+Update Features:  
+    1. Fix build errorFixed Issues:
+    None 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0024
+Author=Evan Chung
+Release Time=2010/04/20 18:00
+Update Features:  
+    1. Update printing lib 
+    2. Upgrade to SDK 2.1Fixed Issues:
+    1. 0006182 : No toast is prompted when cancel a printing  
+Known Issues:
+    None.
+
+Module Version=00.00.00.0023
+Author=Evan Chung
+Release Time=2010/04/15 16:00
+Update Features:  
+    1. Add "Back" key handlingFixed Issues:
+    1. 0005287 : Touching "Back" or contextual button on "Day View" or its Sub page will directly exit the calendar application. 
+    2. 0005242 : Account input menu always appear 
+    3. 0005932 : The status of login and logout is wrong 
+    4. 0006139 : The calendar process cannot run background when click "home" or "back" on calendar screen.  
+    5. 0006237 : Touch "Back" to incorrect page in share calendar page 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0022
+Author=Evan Chung
+Release Time=2010/04/13 18:00
+Update Features:  
+    1. Fix Widget update freq bug
+    2. Fix Day View with no event butFixed Issues:
+    1. 0006189 : Day view display incorrect when no event
+Known Issues:
+    None.
+
+Module Version=00.00.00.0021
+Author=Evan Chung
+Release Time=2010/04/07 15:30
+Update Features:  
+    1. Fix Month/Day footer bar icon status bug
+    2. Fix Widget date displayFixed Issues:
+    1. 0005241 : It isn't show the date of today at the top in widget 
+    2. 0006002 : Couldn't show calendar icon if logout calendar 
+    3. 0005740 : Month view display different from UES. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0020
+Author=Evan Chung
+Release Time=2010/04/02 15:30
+Update Features:  
+    1. Fix Account display
+    2. Fix Back button issueFixed Issues:
+    1. 0005247 : Account don't display 
+    2. 0006193 : Touch "Back" button to incorrect page in event page.
+Known Issues:
+    None.
+
+Module Version=00.00.00.0019
+Author=Evan Chung
+Release Time=2010/04/02 09:30
+Update Features:
+    1. Text Input align left. 
+    2. Fix Widget event show
+    3. Fix Event sorting.Fixed Issues:
+    1. 0006191 : Don't show event in Widget 
+    2. 0005847 : The problem of arranged events 
+    3. 0005751 : The order of events in a group display incorrect 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0018
+Author=Evan Chung
+Release Time=2010/04/01 17:30
+Update Features:
+    1. Modify package name 
+    2. Remove java file header comment.Fixed Issues:
+    None 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0017
+Author=Evan Chung
+Release Time=2010/03/25 20:00
+Update Features:
+    1. Update Printing function
+    2. Fix Add event pull down menu bug
+    3. Fix More menu bug
+    4. Fix exception when AP exitFixed Issues:
+    1. 0005746 : All sub-menu can't hide automatic after finish the function 
+    2. 0005754 : Event time display incorrect when time is a point  
+    3. 0005283 : the triangle can not be touched 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0016
+Author=Evan Chung
+Release Time=2010/03/24 10:00
+Update Features:
+    1. Modify Widget update to fix android 1.6 issue.
+    2. Fix Add event from-to issueFixed Issues:
+    1. 0005757 : The flow is incorrect when start time is later than end time  
+    2. 0005750 : Sign in interface display incorrect 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0015
+Author=Evan Chung
+Release Time=2010/03/19 17:00
+Update Features:
+    1. Add print preview / printing function.
+    2. Fix Login PW bug.
+    3. Modify Day view, can enter day view with no event. Fixed Issues:
+    1. 0005197 : The "print" function of calendar can't work. 
+    2. 0005748 : Day view can't work and new events don't display  
+    3. 0005267 : Couldn't go to day view when touch the date 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0014
+Author=Evan Chung
+Release Time=2010/03/16 18:00
+Update Features:
+    1. Modify login email/password
+    2. Add "Where" input field in "Add Event" function
+    3. Add scroll bar in dayview event filed 
+    4. Modify Multi-Calendar as More-Calendar
+    5. Modify string "being send" as "being sent"Fixed Issues:
+    1. 0005233 : Notification "Please enter your password" not display in password textbox of calendar
+    2. 0005269 : Don't have the scroll bar at day view and there is a blemish on day view 
+    3. 0005721 : No scroll bar displays in day view mode when date events are too much in one day. 
+Known Issues:
+    None.
+
+Module Version=00.00.00.0013
+Author=Evan Chung
+Release Time=2010/03/05 14:00
+Update Features:
+    1. Modify string.xml , add \ befor any " and 'Fixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0012
+Author=Evan Chung
+Release Time=2010/03/02 09:00
+Update Features:
+    1. Roll back to 00.00.00.0010, remove Print functionFixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0011
+Author=Evan Chung
+Release Time=2010/02/05 20:00
+Update Features:
+    1. Add Print preview and print for Month / Day / Event viewFixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0010
+Author= Sharon Chen
+Release Time=2010/02/05 14:00
+Update Features:
+    1. Modify the screen layout font size to fit the StyleSample and 9-path DNA format:
+    		alarm_dialog.xml
+				calendar_check_dlg.xml
+				calendar_day_event_info.xml
+        calendar_day_event_info_footbar.xml
+        calendar_day_footbar_xml
+        calendar_event_list.xml
+        calendar_header.xml
+        calendar_header_contextual.xml
+        calendar_loading.xml
+        calendar_login.xml
+        calendar_month_footbar.xml
+        calendar_month_menu.xml
+        calendar_new_event.xml
+        calendar_new_event_v.xml
+        calendar_setting_item.xml
+        calendar_sync_dlg.xml
+        calendar_sync_finish_dlg.xml
+        footbar_check_menu.xml
+        spinner_list_item.xml
+        spinner_list_item_recurrence.xml
+        spinner_list_item_reminder.xml
+        spinner_list_recurrence.xml
+        spinner_list_reminder.xml
+        spinner_list_time_from.xml
+  ist_time_to.xml
+        strings.xmlFixed Issues:
+    None
+Known Issues:
+    None.
+
+Module Version=00.00.00.0009
+Author=Evan Chung
+Release Time=2010/02/03 21:00
+Update Features:
+    1. Modify Login screenFixed Issues:
+    None
+Known Issues:
+    None.
+
+
+Module Version=00.00.00.0008
+Author=Evan Chung
+Release Time=2010/01/27 19:30
+Update Features:
+    1. Add Reminder.
+    2. Min SDK Version set as 4Fixed Issues:
+    1. Mantis id 0005167: Correct account can't login Calendar app with connecting to external network normally.
+Known Issues:
+    None.
+
+Module Version=00.00.00.0007
+Author=Jugo Ju
+Release Time=2009/12/31 18:30
+Update Features:
+    None.Fixed Issues:
+    1. fix calendar setting bug.
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0006
+Author=Jugo Ju
+Release Time=2009/12/30 19:50
+Update Features:
+    1. Add log out check dialogFixed Issues:
+    None.
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0005
+Author=Jugo Ju
+Release Time=2009/12/30 18:00
+Update Features:
+    1. Add new event function
+    2. Add edit event function
+    3. Add delete event functionFixed Issues:
+    None.
+Known Issues:
+    None.
+    
+Module Version=00.00.00.0004
+Author=Jugo Ju
+Release Time=2009/12/30 18:00
+Update Features:
+    None.Fixed Issues:
+    1. remove old version
+Known Issues:
+    None.
+    
+Module Version=0.0.1.0
+Author=Jugo Ju
+Release Time=2009/10/13 13:00
+Update Features:
+    1. update JDK5.0 , Java 1.5.21Fixed Issues:
+    None.
+Known Issues:
+    None.
+
+Module Version=0.0.0.4
+Author=Jugo Ju
+Release Time=2009/10/01 11:00
+Update Features:
+    1. fix alarm_dialog OK wordingFixed Issues:
+    None.
+Known Issues:
+    None. 

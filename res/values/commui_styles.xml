@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.CommDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/popup_small</item>
+	</style>
+	<style name="Theme.CommLoadingDialog" parent="android:style/Theme.Panel">
+        <item name="android:windowBackground">@drawable/baseui_loading_dlg_bg</item>
+    </style>	
+	<style name="PrintDialog" parent="android:style/Theme.Translucent"> 
+        <item name="android:windowBackground">@color/transparent_background</item>
+    </style>    
+</resources>

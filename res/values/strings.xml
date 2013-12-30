@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Calendar</string>
+
+<string name="loadingConnecting">Connecting to the Internet...</string>
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="loadingFail">Unable to connect to the Internet</string>
+<!-- original
+<string name="loadingFail">Could not connect to the internet</string>
+-->
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="loginTitle">Sign in to Google Calendar</string>
+<string name="ok">OK</string>
+<string name="Account">Account</string>
+<string name="Password">Password</string>
+<string name="SavePassword">Save Password</string>
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="MultiCalendar">More Calendars</string>
+<string name="Synch">Sync</string>
+<!-- original
+<string name="MultiCalendar">More-Calendars</string>
+<string name="Synch">Synch</string>
+-->
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+
+<string name="No">No</string>
+<string name="Yes">Yes</string>
+<string name="LogoutInfo">Would you like to log out of your calendar? Data will be removed until next log in.</string>
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="FC_month_view">Month View</string>
+<!-- original
+<string name="FC_month_view">Family Calendar - Month View</string>
+-->
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="Month_View">Month View</string>
+<string name="Today">Today</string>
+<string name="New_Event">New Event</string>
+<string name="Print">Print</string>
+<string name="More">More</string>
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="FC_day_view">Day View</string>
+<!-- original
+<string name="FC_day_view">Family Calendar - Day View</string>
+-->
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="day_view">Day View</string>
+<string name="today">Today</string>
+<string name="print">Print</string>
+<string name="more">More</string>
+<string name="title">Event Title:</string>
+<string name="when">When:</string>
+<string name="to">to</string>
+<string name="all_day">All Day</string>
+<string name="calendar">Calendar</string>
+<string name="done">Done</string>
+<string name="recurrence">Recurrence:</string>
+<string name="description">Description:</string>
+<string name="where">Where:</string>
+<string name="reminder">Reminder:</string>
+<string name="edit">Edit</string>
+<string name="delete">Delete</string>
+<string name="logout">Logout</string>
+<string name="sun">Sun</string>
+<string name="mon">Mon</string>
+<string name="tue">Tue</string>
+<string name="wed">Wed</string>
+<string name="thu">Thu</string>
+<string name="fri">Fri</string>
+<string name="sat">Sat</string>
+<string name="add">Add</string>
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="synchronize_with_google_calendar">Synchronized with Google Calendar</string>
+<!-- original
+<string name="synchronize_with_google_calendar">Synchronize with Google Calendar</string>
+-->
+<!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+<string name="synchronizing_calendars">Synchronizing calendars</string>
+<string name="would_you_like_to_delete_this_event">Would you like to delete this event?</string>
+<string name="select_calendars">Select Calendars</string>
+<string name="edit_event">Edit Event</string>
+
+<string name="would_you_like_to_log_out">Would you like to log out of your calendar? Data will be removed until next log in.</string>
+<string name="WhatisGoogleCld">What is Google Calendar?</string>
+<string name="WhatisGoogleCldText">With Google Calendar, it\'s easy to keep track of life\'s important 
+events all in one place. You can view the calendars of co-workers and colleagues from one online calendar.
+Their appointments are viewable right next to yours which streamlines event planning.</string>
+<string name="ExistingMember">Existing Member</string>
+<string name="Email">Email</string>
+<string name="EnterEmail">Please enter your email address</string>
+<string name="EnterPassword">Please enter your password</string>
+<string name="NewMember">New Member</string>
+<string name="PleaseVisit">Please visit:</string>
+<string name="httpGoogle">http://www.google.com/accounts</string>
+<string name="CreateGoogle">to create your Google Calendar account.</string>
+<string name="EnterTitle">Please enter event title</string>
+<string name="InvalidFromTo">Invalid start and finish time</string>
+<string name="mins_before">mins before</string>
+
+
+	<!-- HP Constant string setting -->
+	<string name="Printer_Preview">Print Preview</string>
+    <string name="str_btn_print">Print</string>
+    <string name="str_btn_preview">Preview</string>
+    
+    <string name="selected_printer">Selected Printer</string>
+
+    <string name="control_button_cancelprint">Cancel Print</string>
+
+    <string name="control_label_printing">Printing Job Secret Project.doc</string>
+
+    <string name="select_printer_button_text">Select another printer</string>
+
+    <string name="print_button_text">Print</string>
+
+    <string name="service_name">mDNS Service</string>
+
+    <string name="service_running_msg">Scanning for mDNS services</string>
+
+    <string name="service_type_added_msg">New service type:</string>
+
+    <string name="service_added_msg">New service:</string>
+
+    <string name="service_removed_msg">Service removed:</string>
+
+    <string name="service_resolved_msg">Service info available:</string>
+
+    <!-- Strings for Print Photo -->
+
+    <string name="searching_printers_result">Searching Printers Result</string>
+
+    <string name="no_printers_found">No compatible printers found.</string>
+
+    <string name="searching_printers">Searching Printers</string>
+
+    <string name="stop_search">Press button to stop search.</string>
+
+    <string name="cancel_search">Press button to cancel search.</string>
+
+    <string name="details_ok">OK</string>
+
+    <string name="details_stop">Stop</string>
+
+    <string name="details_cancel">Cancel</string>
+
+    <string name="no_printer_selected">None Selected</string>
+
+    <string name="print_job_status">Print Job Status</string>
+
+    <string name="print_job_failure">Print Job Failure</string>
+
+    <string name="photo_not_printed">Could not print your photo.</string>
+
+    <string name="details_dismiss">Dismiss</string>
+
+    <string name="image_too_big">Image too big.</string>
+
+    <string name="print_job_failed">Job failed!</string>
+
+    <string name="print_job_sent">Job sent.</string>
+
+    <!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+    <string name="no_files_text">No photos found on the SD card!</string>
+    <!-- original
+    <string name="no_files_text">No files found on SD Card.</string>
+    -->
+    <!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+    
+    <string name="cancel">Cancel</string>
+    
+    <!--  <string name="print">Print</string> -->
+    
+    <string name="printing_service_name">PrintingService</string>
+    <string name="printing_service_started">Printing Service started</string>
+    <string name="printing_service_running">Printing Service running</string>
+    
+    
+    <!-- Preview constant settings -->
+    <string name="PrintPreviewServiceNameStringID">Print Preview Service</string>
+    <string name="SelectedPrinterButtonStringID">Setup</string>
+    <string name="PrintButtonStringID">Print</string>
+    
+    <!-- PrinterSetting constants -->
+    <string name="AvailablePrintersStringID">Available Printers</string>
+    <string name="SetupDoneButtonStringID">Done</string>
+    <string name="PageSetupStringID">Page Setup</string>
+    <string name="PrintSettingsStringID">Print Settings</string>
+    <string name="PrinterSetupStringID">Printer Setup</string>
+    <string name="RefreshButtonStringID">Refresh</string>
+    <string name="CopiesStringID">Copies</string>
+    <string name="ColorModeStringID">Color Mode</string>
+    <string name="SearchingForPrintersStringID">Searching for Printers</string>
+    <string name="DummyNumCopiesStringID">1</string>
+    <string name="OtherPrinterByAddressStringID">Other</string>
+
+    <string name="PaperSizeLetterStringID">US Letter</string>
+    <string name="PaperSize4x6StringID">4x6</string>
+    <string name="PaperSize57xStringID">5x7</string>
+    <string name="MyPrinterStringID">My Printer</string>
+    
+    <!-- Preview Gallery -->
+    <string name="btnShowPreview">Preview</string>
+    <string name="txtViewSelectedImages">Preview</string>
+    
+    <!-- HP Printing Testing -->
+    <string name="btnPrintURL">PRINT FROM URL</string>
+    <string name="btnPrintFilePath">PRINT FROM FILEPATH</string>
+    
+    <!-- Direct Printing -->
+    <string name="btnDirectPrinting">DIRECT PRINT</string>
+
+	<string name="txt_ok"> OK </string>
+    <string name="txt_cancel">Cancel</string>	
+    <!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+    <string name="txt_printer_preview_prompt">Your print is being sent to the printer. See progress by touching the notification area at the top of the screen.</string>
+    <!-- original
+    <string name="txt_printer_preview_prompt">Your print is being sent to the printer. Seeing progress by touch the notification area in the top bar.</string>
+    -->
+    <!-- modify by Chance 2010-08-24 for Mantis[7502] -->
+    <string name="txt_printer_preview">Print Preview</string>
+	<string name="txt_printer_cancel">Your print has been cancelled</string>
+
+	<string name="Unable_2_connect_2_Internet">Unable to connect to Internet</string>
+	<string name="No_Google_Calendar_Content_Found">No Google Calendar Content Found</string>
+	<string name="Unable_2_connect_2_Google_Calendar">Unable to connect to Google Calendar</string>
+	<string name="Unable_2_recognize_username_password">Unable to recognize username or password</string>		
+	
+    <!-- Add Printer Selected Label -->
+    <string name="NoPrinterSelectedStringID">Select Printer</string>
+    <string name="PrintInColorStringID">Color</string>
+    <string name="PrintInBWStringID">Black &amp; White</string>	
+    <string name="CheckingPrinterSelectedStringID">Checking for printer...\n</string>  
+    <string name="BasePrinterNameStringID">HP Photosmart eStation C510a"</string>
+    <string name="BasePrinterModelStringID">Photosmart eStation C510 series"</string>
+	
+<string name="no_more_events_today">No more events today</string>
+<string name="downloading">Downloading</string>
+<string name="login">Logining... </string>
+<string name="unable_to_synchronize_with_google_calendar">Unable to synchronize with\ngoogle calendar</string>
+<string name="try_again">Try Again</string>
+
+<string name=":">:</string>
+<string name="am">AM</string>
+<string name="pm">PM</string>
+<string name="add_new_event">Add New Event</string>
+</resources>

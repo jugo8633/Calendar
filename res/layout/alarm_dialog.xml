@@ -1,0 +1,40 @@
+<RelativeLayout android:id="@+id/rlAlarmDlgMain" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/calendar_login_bg" 
+android:layout_height="300dip" 
+android:layout_width="400dip">
+
+<TextView android:layout_centerHorizontal="true" 
+android:id="@+id/tvAlarmInfo" 
+android:text="@string/calendar" 
+android:layout_width="350sp" 
+android:layout_height="200sp" 
+android:layout_marginTop="20dip" 
+android:gravity="center" 
+android:textSize="@android:dimen/HP.Type.14" 
+android:textStyle="bold" 
+android:textColor="@android:color/HP.Color.Gray1"/>
+
+<Button android:layout_centerHorizontal="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginBottom="20dip" 
+android:gravity="center" 
+android:id="@+id/btnAlarmBtnOK" 
+android:text="@string/ok" 
+android:textSize="@android:dimen/HP.Type.18" 
+android:textColor="@android:color/HP.Color.Gray1" 
+android:layout_height="40dip" 
+android:layout_width="80dip" 
+style="@android:style/HP.Button" 
+android:textStyle="bold"/>
+
+<ImageView android:layout_above="@+id/btnAlarmBtnOK" 
+android:layout_centerHorizontal="true" 
+android:id="@+id/ivLine" 
+android:layout_height="3dip" 
+android:layout_width="fill_parent" 
+android:src="@android:color/HP.Color.Gray3" 
+android:layout_marginBottom="10dip" 
+android:layout_marginLeft="40dip"/>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+      android:versionCode="1" package="com.hp.ij.calendar" android:versionName="00.00.00.0112">
+
+    <application android:icon="@drawable/calendar_icon" 
+    android:label="@string/app_name" 
+    android:name="CalendarApplication">
+        <activity android:name=".CalendarApp"
+                  android:label="@string/app_name" 
+                  android:screenOrientation="sensor" 
+                  android:launchMode="singleInstance"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.hp.ij.common.service.baseservice.BaseService">
+        	<intent-filter>
+        		<action android:name="com.hp.ij.common.service.baseservice.IBaseService" />
+        	</intent-filter>
+        </service>
+        <receiver android:name=".CalendarWidgetProvider" 
+			android:label="@string/app_name" 
+			android:icon="@drawable/calendar_icon">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="customExtras" />
+			</intent-filter>	
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/calendar_widget_provider_info"/>
+		</receiver>
+    	<!-- preview activity-->
+        <activity android:name="com.hp.ij.printpreview.CalendarPrintPreviewActivity"> 
+        	 <intent-filter>
+                <action android:name="com.hp.ij.printpreview.CalendarPrintPreviewActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+             </intent-filter>
+        </activity>                               
+        
+        <service android:name="com.hp.ij.printing.service.CalendarPhotoRasterService"                
+                 android:exported="true"   android:enabled="true">
+            <intent-filter>
+                <action android:name="com.hp.ij.printing.service.CALENDAR_PHOTO_RASTER_SERVICE"/>
+                <data android:scheme="print"/> 
+            </intent-filter>            
+        </service>       
+        
+        <service android:name="com.hp.ij.printing.service.CalendarDataRasterService"                
+                 android:exported="true"   android:enabled="true">
+            <intent-filter>
+                <action android:name="com.hp.ij.printing.service.CALENDAR_DATA_RASTER_SERVICE"/>
+                <data android:scheme="print"/>  
+            </intent-filter>            
+        </service>      
+           
+</application>
+    <uses-sdk android:minSdkVersion="8" android:minHpSdkVersion="1" /> 
+	  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>          
+    <uses-permission android:name="android.permission.MODE_WORLD_READABLE"/>
+    <uses-permission android:name="android.permission.MODE_WORLD_WRITEABLE"/>    
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY"></uses-permission>
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"></uses-permission>
+    <uses-permission android:name="com.hp.ij.docksyncservice.permission.PRINT_APP"/>
+
+</manifest> 

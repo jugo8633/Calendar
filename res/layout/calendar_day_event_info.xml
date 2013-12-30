@@ -1,0 +1,76 @@
+<ScrollView android:id="@+id/svEventInfoMain" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:scrollbars="none" 
+android:layout_gravity="center_horizontal" 
+android:layout_width="fill_parent">
+
+<LinearLayout android:id="@+id/llEventInfoMain" 
+android:layout_height="wrap_content" 
+android:layout_gravity="center_horizontal" 
+android:layout_width="fill_parent" 
+android:orientation="vertical" 
+android:paddingLeft="50dip">
+
+<!-- calendar title -->
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/tvEventInfoCalendar" 
+android:textStyle="bold" 
+android:paddingBottom="10dip" 
+android:paddingTop="20dip" 
+android:textColor="@android:color/HP.Color.Blue3" 
+android:textSize="@android:dimen/HP.Type.18"/>
+
+<!-- event time -->
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textStyle="bold" 
+android:paddingTop="10dip" 
+android:id="@+id/tvEventInfoTime" 
+android:textColor="@android:color/HP.Color.Green1" 
+android:textSize="@android:dimen/HP.Type.18"/>
+
+<!-- event reminder -->
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textStyle="bold" 
+android:paddingTop="2dip" 
+android:paddingBottom="10dip" 
+android:id="@+id/tvEventInfoReminder" 
+android:textColor="@android:color/HP.Color.Green1" 
+android:textSize="@android:dimen/HP.Type.18"/>
+
+<!-- event title -->
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textStyle="bold" 
+android:paddingTop="10dip" 
+android:id="@+id/tvEventInfoEvent" 
+android:textColor="@android:color/white" 
+android:textSize="@android:dimen/HP.Type.18"/>
+
+<!-- event where -->
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textStyle="bold" 
+android:paddingBottom="10dip" 
+android:paddingTop="2dip" 
+android:id="@+id/tvEventInfoWhere" 
+android:textColor="@android:color/white" 
+android:textSize="@android:dimen/HP.Type.18"/>
+
+<!-- event description -->
+<TextView android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:paddingTop="10dip" 
+android:text="@string/calendar" 
+android:paddingLeft="20dip" 
+android:paddingRight="20dip" 
+android:id="@+id/tvEventInfoMessage" 
+android:textColor="@android:color/HP.Color.Gray2" 
+android:textSize="@android:dimen/HP.Type.16" 
+android:lineSpacingMultiplier="2"/>
+
+</LinearLayout>
+</ScrollView>

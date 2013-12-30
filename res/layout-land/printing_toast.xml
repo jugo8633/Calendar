@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+android:id="@+id/PrintingToast" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/baseui_loading_dlg_bg"  
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content">
+
+   <RelativeLayout 
+   android:id="@+id/PrintingToast_Main" 
+   android:background="@drawable/popup_small2" 
+   android:layout_width="430dip" 
+   android:layout_height="200dip" android:layout_centerInParent="true">
+   
+       <LinearLayout
+       android:id="@+id/PrintingToast_Text"
+       android:layout_centerHorizontal="true"  
+       android:layout_height="100dip" 
+       android:layout_marginTop="20dip" 
+       android:layout_width="360dip" 
+       android:orientation="vertical" 
+       android:gravity="center">
+           <TextView
+           android:id="@+id/PrintingToast_Text1" 
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content"         
+           android:text="@string/txt_printer_preview_prompt" 
+           android:gravity="center" 
+           android:textColor="#FFFFFFFF">
+           </TextView>
+       </LinearLayout>
+   
+       <RelativeLayout
+       android:id="@+id/PrintingToast_Button" 
+       android:layout_centerHorizontal="true" 
+       android:layout_height="50dip" 
+       android:layout_marginTop="8dip" 
+       android:layout_width="360dip"         
+       android:layout_below="@+id/PrintingToast_Text">
+           <Button
+           android:id="@+id/PrintingToast_Ok" 
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:layout_alignParentRight="true"      
+           android:text="@string/txt_ok" 
+           android:background="@drawable/btn_baseui_ok" 
+           android:textColor="#FFFFFFFF">
+           </Button>
+           <Button
+           android:id="@+id/PrintingToast_Cancel"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content"  
+           android:text="@string/txt_cancel" 
+           android:background="@drawable/btn_baseui_cancel" 
+           android:textColor="#FFFFFFFF">
+           </Button>
+       </RelativeLayout>
+   </RelativeLayout>
+   
+</RelativeLayout>

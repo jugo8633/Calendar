@@ -1,0 +1,18 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_height="wrap_content" 
+android:id="@+id/rlSpinnerListMain" 
+android:layout_width="fill_parent">
+
+<TextView android:layout_height="wrap_content" 
+android:id="@+id/tvSpinnerItemReminder" 
+android:text="@string/calendar" 
+android:paddingBottom="3dip" 
+android:layout_centerHorizontal="true" 
+android:singleLine="true" 
+android:layout_width="fill_parent" 
+android:background="@drawable/list_item_bg" 
+android:paddingTop="10dip" 
+android:paddingLeft="30dip" android:textColor="@android:color/HP.Color.Gray1" android:textSize="@android:dimen/HP.Type.18" android:textStyle="bold"/>
+
+</RelativeLayout>

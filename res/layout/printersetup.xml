@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/PrintSetupRelativeLayout"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/SetupDoneButtonStringID"
+            android:id="@+id/SetupDoneButton"/>			    
+	<TextView android:text="@string/PrinterSetupStringID"
+			  android:id="@+id/PrinterSetupLabel"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:layout_toLeftOf="@+id/SetupDoneButton"
+			  android:layout_alignTop="@+id/SetupDoneButton"
+			  android:layout_alignBottom="@+id/SetupDoneButton"
+			  android:gravity="center_vertical"
+			  android:layout_alignParentLeft="true"/>
+	<TextView android:layout_height="wrap_content"
+	          android:layout_width="fill_parent"
+	          android:layout_alignParentLeft="true"
+	          android:layout_below="@+id/SetupDoneButton"
+	          android:id="@+id/PrintersStatusLabel"
+	          android:text="@string/AvailablePrintersStringID"/>
+	<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:text="@string/RefreshButtonStringID"
+			android:id="@+id/RefreshButton"/>
+					
+	<TextView android:text="@string/PrintSettingsStringID"
+			  android:id="@+id/PrintSettingsLabel"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_centerVertical="true"
+			  android:layout_alignParentLeft="true"/>
+	<TableLayout android:id="@+id/PrinterSettingsTableLayout"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+				 android:layout_below="@+id/PrintSettingsLabel">
+		<TableRow>
+			<TextView android:layout_column="1"
+					  android:id="@+id/NumCopiesTextField"
+					  android:text="@string/CopiesStringID"
+					  android:layout_width="wrap_content"
+					  android_layout_height="wrap_content"/>
+			<EditText android:id="@+id/NumCopiesField"
+                                          android:numeric="integer"
+					  android:text="@string/DummyNumCopiesStringID"
+					  android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_column="1"
+					  android:id="@+id/ColorModeField"
+					  android:text="@string/ColorModeStringID"
+					  android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"/>
+			<Spinner android:id="@+id/ColorModeSpinner"
+		 	 		 android:layout_width="wrap_content"
+		 	 		 android:layout_height="wrap_content"/>
+		</TableRow>
+	</TableLayout>
+	<RadioGroup android:id="@+id/RadioGroupLayoutOrientation"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_above="@+id/PrintSettingsLabel"
+				android:orientation="horizontal">
+		<RadioButton android:id="@+id/RadioButtonPortrait"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:checked="true" />
+		<RadioButton android:id="@+id/RadioButtonLandscape"
+		             android:layout_width="wrap_content"
+		             android:layout_height="wrap_content"
+		             android:checked="false" />
+	</RadioGroup>
+	<Spinner android:id="@+id/PaperSizeSpinner"
+		 	 android:layout_width="fill_parent"
+		 	 android:layout_height="wrap_content"
+		 	 android:layout_above="@+id/PrintSettingsLabel"
+		 	 android:layout_toLeftOf="@+id/RadioGroupLayoutOrientation"
+		 	 android:layout_alignParentLeft="true"/>
+	<TextView android:text="@string/PageSetupStringID"
+			  android:id="@+id/PageSetupLabel"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_alignParentLeft="true"
+			  android:layout_above="@+id/PaperSizeSpinner"/>
+        <EditText android:id="@+id/OtherPrinterAddress"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_above="@+id/PageSetupLabel"/>
+	<ListView android:id="@+id/AvailablePrintersListView"
+	          android:layout_width="fill_parent"
+	          android:layout_height="fill_parent"
+	          android:layout_above="@+id/OtherPrinterAddress"
+	          android:layout_below="@+id/PrintersStatusLabel"/>	
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/content_popup_h_430x199_02" 
+android:layout_width="400dp" 
+android:id="@+id/rlSyncFinishMain" 
+android:layout_height="160dp">
+
+
+<TextView 
+android:id="@+id/tvSyncFinishCaption" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="@string/synchronize_with_google_calendar" 
+android:layout_centerHorizontal="true" 
+android:textStyle="bold" 
+android:gravity="center" 
+android:layout_marginTop="50dp" android:textSize="@android:dimen/HP.Type.14" android:textColor="@android:color/HP.Color.Gray1"/>
+
+<TextView android:gravity="center" 
+android:text="@string/ok" 
+android:id="@+id/tvSyncFinishBtnOk" 
+android:layout_centerHorizontal="true" 
+android:layout_alignParentBottom="true" 
+android:layout_marginBottom="17dp" android:textColor="@android:color/HP.Color.Gray1" android:textSize="@android:dimen/HP.Type.18" android:textStyle="bold" android:layout_width="80dip" android:layout_height="40dip" style="@android:style/HP.Button"/>
+
+
+</RelativeLayout>

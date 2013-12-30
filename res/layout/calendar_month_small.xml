@@ -1,0 +1,1044 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/rlCalendarMonthMain" 
+android:layout_gravity="center" 
+android:gravity="center_horizontal" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+
+<!-- month & year title -->
+<RelativeLayout 
+android:layout_height="wrap_content" 
+android:id="@+id/rlCalendarMonthDateTitle" 
+android:gravity="center_horizontal" 
+android:background="@android:color/white" 
+android:layout_width="350dp">
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/tvMonthMonth" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:textSize="14sp"/>
+
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvMonthMonth" 
+android:id="@+id/tvMonthYear" 
+android:layout_marginLeft="10dp" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:textSize="14sp"/>
+
+</RelativeLayout>
+
+
+<!-- day of week title -->
+<RelativeLayout 
+android:layout_height="wrap_content" 
+android:layout_below="@+id/rlCalendarMonthDateTitle" 
+android:id="@+id/rlMonthWeekDayTitle" 
+android:background="@android:color/white" 
+android:gravity="center_horizontal" 
+android:paddingTop="5dp" android:layout_width="350dp">
+
+<TextView 
+android:id="@+id/tvSun" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:text="@string/sun" 
+android:gravity="center" android:layout_width="50dp"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvSun" 
+android:id="@+id/tvMon" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:text="@string/mon" 
+android:gravity="center" android:layout_width="50dp"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvMon" 
+android:id="@+id/tvTue" 
+android:text="@string/tue" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:gravity="center" android:layout_width="50dp"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvTue" 
+android:id="@+id/tvWed" 
+android:text="@string/wed" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:gravity="center" android:layout_width="50dp"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvWed" 
+android:id="@+id/tvThu" 
+android:text="@string/thu" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:gravity="center" android:layout_width="50dp"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvThu" 
+android:id="@+id/tvFri" 
+android:text="@string/fri" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:gravity="center" android:layout_width="50dp"/>
+
+<TextView 
+android:layout_height="wrap_content" 
+android:layout_toRightOf="@+id/tvFri" 
+android:id="@+id/tvSat" 
+android:text="@string/sat" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:gravity="center" android:layout_width="50dp"/>
+</RelativeLayout>
+
+<!-- line -->
+<ImageView 
+android:id="@+id/ivLine01" 
+android:layout_below="@+id/rlMonthWeekDayTitle" 
+android:layout_height="2dp" 
+android:src="@android:color/HP.Color.Gray3" android:layout_width="350dp"/>
+
+
+<!-- month grid -->
+<RelativeLayout 
+android:id="@+id/rlMonthGridMain" 
+android:layout_below="@+id/ivLine01" 
+android:background="@android:color/HP.Color.Gray3" 
+android:layout_height="wrap_content" 
+android:gravity="center" android:layout_width="350dp">
+
+<!-- month row 00 -->
+<RelativeLayout 
+android:id="@+id/rlMonthDay00" 
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_below="@+id/ivLine01" android:layout_height="30dp" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay01" 
+android:background="@android:color/white" 
+android:layout_width="48dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay00" android:layout_height="30dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginLeft="3dp" 
+android:layout_marginTop="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_alignParentRight="true" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay02" 
+android:background="@android:color/white" 
+android:layout_height="30dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay01" android:layout_marginLeft="2dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout
+android:id="@+id/rlMonthDay03"  
+android:background="@android:color/white" 
+android:layout_marginLeft="2dp" android:layout_height="30dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay02">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay04" 
+android:background="@android:color/white" 
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay03">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay05" 
+android:background="@android:color/white" 
+android:layout_toRightOf="@+id/rlMonthDay04" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay06" 
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay05" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<!-- month row 01 -->
+<RelativeLayout 
+android:id="@+id/rlMonthDay10" 
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_height="30dp" android:layout_below="@+id/rlMonthDay00" android:layout_marginTop="2dp" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay11" 
+android:background="@android:color/white" 
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_alignTop="@+id/rlMonthDay10" android:layout_toRightOf="@+id/rlMonthDay10">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay12"
+android:background="@android:color/white"  
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_alignTop="@+id/rlMonthDay10" android:layout_toRightOf="@+id/rlMonthDay11">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay13" 
+android:background="@android:color/white" 
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay12" android:layout_alignTop="@+id/rlMonthDay10">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay14" 
+android:background="@android:color/white" 
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay13" android:layout_alignTop="@+id/rlMonthDay10">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay15" 
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay10" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay14" android:layout_width="48dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay16" 
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay15" android:layout_width="49dp" android:layout_alignTop="@+id/rlMonthDay10">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<!-- month row 02 -->
+<RelativeLayout 
+android:id="@+id/rlMonthDay20"
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_marginTop="2dp" android:layout_below="@+id/rlMonthDay10" android:layout_height="30dp" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay21"
+android:background="@android:color/white"  
+android:layout_alignTop="@+id/rlMonthDay20" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay20">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay22"
+android:background="@android:color/white"  
+android:layout_alignTop="@+id/rlMonthDay20" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay21">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay23" 
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay20" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay22">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay24"
+android:background="@android:color/white"  
+android:layout_alignTop="@+id/rlMonthDay20" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_height="30dp" android:layout_toRightOf="@+id/rlMonthDay23">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay25"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay20" android:layout_height="30dp" android:layout_width="48dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay24">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay26"
+android:background="@android:color/HP.Color.Gray1" android:layout_toRightOf="@+id/rlMonthDay25" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_alignTop="@+id/rlMonthDay20" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<!-- month row 03 -->
+<RelativeLayout 
+android:id="@+id/rlMonthDay30" 
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_height="30dp" android:layout_below="@+id/rlMonthDay20" android:layout_marginTop="2dp" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay31"
+android:background="@android:color/white" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay30" android:layout_alignTop="@+id/rlMonthDay30">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay32"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay30" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay31">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay33"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay30" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay32">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay34"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay30" android:layout_height="30dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay33" android:layout_marginLeft="2dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay35"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay30" android:layout_height="30dp" android:layout_width="48dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay34">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay36"
+android:background="@android:color/HP.Color.Gray1" android:layout_alignTop="@+id/rlMonthDay30" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay35" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<!-- month row 04 -->
+<RelativeLayout 
+android:id="@+id/rlMonthDay40"
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_below="@+id/rlMonthDay30" android:layout_height="30dp" android:layout_width="49dp" android:layout_marginTop="2dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay41"
+android:background="@android:color/white" android:layout_height="30dp" android:layout_width="48dp" android:layout_marginLeft="2dp" android:layout_alignTop="@+id/rlMonthDay40" android:layout_toRightOf="@+id/rlMonthDay40">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay42"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay40" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay41">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay43"
+android:background="@android:color/white" android:layout_toRightOf="@+id/rlMonthDay42" android:layout_alignTop="@+id/rlMonthDay40" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay44"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay40" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay43">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay45"
+android:background="@android:color/white" android:layout_alignTop="@+id/rlMonthDay40" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay44">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay46"
+android:background="@android:color/HP.Color.Gray1" android:layout_alignTop="@+id/rlMonthDay40" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay45" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+
+<!-- month row 05 -->
+<RelativeLayout 
+android:id="@+id/rlMonthDay50" 
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_height="30dp" android:layout_marginTop="2dp" android:layout_width="49dp" android:layout_below="@+id/rlMonthDay40">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay51"
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay50" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay50">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay52"
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay50" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_width="48dp" android:layout_toRightOf="@+id/rlMonthDay51">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay53"
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay50" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay52" android:layout_width="48dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay54"
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay50" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay53" android:layout_width="48dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay55"
+android:background="@android:color/white" 
+android:layout_alignTop="@+id/rlMonthDay50" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay54" android:layout_width="48dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+<RelativeLayout 
+android:id="@+id/rlMonthDay56"
+android:background="@android:color/HP.Color.Gray1" 
+android:layout_alignTop="@+id/rlMonthDay50" android:layout_height="30dp" android:layout_marginLeft="2dp" android:layout_toRightOf="@+id/rlMonthDay55" android:layout_width="49dp">
+<TextView 
+android:id="@+id/tvMonthEvent" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="@drawable/event_icon_s" 
+android:layout_marginTop="3dp" 
+android:layout_marginLeft="3dp" android:visibility="invisible"/>
+<TextView 
+android:id="@+id/tvMonthDay"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:textColor="@android:color/black" 
+android:textColorHighlight="@android:color/black" 
+android:layout_alignParentRight="true" 
+android:layout_marginRight="3dp" 
+android:layout_marginTop="3dp"/>
+</RelativeLayout>
+
+
+</RelativeLayout>
+</RelativeLayout>

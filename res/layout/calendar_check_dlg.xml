@@ -1,0 +1,50 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/content_popup_h_430x199_02" 
+android:layout_width="400dp" 
+android:id="@+id/rlCheckDlgMain" 
+android:layout_height="160dp">
+
+
+<TextView 
+android:id="@+id/tvCheckDlgCaption" 
+android:layout_centerHorizontal="true" 
+android:textStyle="bold" 
+android:gravity="center" 
+android:layout_height="70dp" 
+android:layout_width="320sp" 
+android:layout_marginTop="20dp" 
+android:textSize="@android:dimen/HP.Type.14" 
+android:textColor="@android:color/HP.Color.Gray1"/>
+
+<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_toRightOf="@+id/tvCheckDlgCaption" android:id="@+id/ivAlarm" android:src="@drawable/alarm_sign" android:layout_alignTop="@+id/tvCheckDlgCaption" android:visibility="gone"></ImageView><RelativeLayout 
+android:id="@+id/rlCheckDlgBtn" 
+android:layout_alignParentBottom="true" 
+android:layout_height="50dp" 
+android:layout_centerHorizontal="true" 
+android:layout_marginBottom="12dp" android:layout_width="fill_parent" android:gravity="center">
+
+<Button android:gravity="center" 
+android:id="@+id/btnCheckDlgOkBtn" 
+android:text="@string/Yes" 
+android:textSize="@android:dimen/HP.Type.18" 
+android:textColor="@android:color/HP.Color.Gray1" 
+android:layout_width="80dip" 
+android:layout_height="40dip" 
+style="@android:style/HP.Button" 
+android:textStyle="bold" android:layout_toRightOf="@+id/btnCheckDlgNoBtn" android:layout_marginLeft="30dp"/>
+
+<Button android:id="@+id/btnCheckDlgNoBtn" 
+android:text="@string/No" 
+android:gravity="center" 
+android:layout_alignParentLeft="true" 
+android:textSize="@android:dimen/HP.Type.18" 
+android:textColor="@android:color/HP.Color.Gray1" 
+android:layout_height="40dip" 
+android:layout_width="80dip" 
+style="@android:style/HP.Button" 
+android:textStyle="bold"/>
+</RelativeLayout>
+
+
+</RelativeLayout>

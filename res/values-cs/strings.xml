@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">PS&gt;-CalendarCal-&lt;PS</string>
+<string name="loadingTitle">PS&gt;-CalendarCal-&lt;PS</string>
+<string name="loadingConnecting">PS&gt;-Connecting to the Internet...Connectin-&lt;PS</string>
+<string name="loadingFail">PS&gt;-Connecting to the Internet fail...Connecting -&lt;PS</string>
+<string name="loginTitle">PS&gt;-Sign in to Google CalendarSign in -&lt;PS</string>
+<string name="Skip">PS&gt;-SkipSk-&lt;PS</string>
+<string name="ok">PS&gt;-OK-&lt;PS</string>
+<string name="Account">PS&gt;-AccountAcc-&lt;PS</string>
+<string name="Password">PS&gt;-PasswordPas-&lt;PS</string>
+<string name="SavePassword">PS&gt;-Save PasswordSave-&lt;PS</string>
+<string name="MultiCalendar">PS&gt;-More-CalendarsMore--&lt;PS</string>
+<string name="Synch">PS&gt;-SynchSy-&lt;PS</string>
+
+<string name="No">PS&gt;-No-&lt;PS</string>
+<string name="Yes">PS&gt;-Yes-&lt;PS</string>
+<string name="LogoutInfo">PS&gt;-Would you like to log out of your calendar? Data will be removed until next log in.Would you like to log out-&lt;PS</string>
+<string name="FC_month_view">PS&gt;-Family Calendar - Month ViewFamily Ca-&lt;PS</string>
+<string name="Month_View">PS&gt;-Month ViewMont-&lt;PS</string>
+<string name="Today">PS&gt;-TodayTo-&lt;PS</string>
+<string name="New_Event">PS&gt;-New EventNew-&lt;PS</string>
+<string name="Print">PS&gt;-PrintPr-&lt;PS</string>
+<string name="More">PS&gt;-MoreMo-&lt;PS</string>
+<string name="FC_day_view">PS&gt;-Family Calendar - Day ViewFamily C-&lt;PS</string>
+<string name="login_fail">PS&gt;-Google Calendar Login FailGoogle C-&lt;PS</string>
+<string name="day_view">PS&gt;-Day ViewDay-&lt;PS</string>
+<string name="today">PS&gt;-TodayTo-&lt;PS</string>
+<string name="quick_add">PS&gt;-Quick AddQui-&lt;PS</string>
+<string name="new_event">PS&gt;-New EventNew-&lt;PS</string>
+<string name="print">PS&gt;-PrintPr-&lt;PS</string>
+<string name="more">PS&gt;-MoreMo-&lt;PS</string>
+<string name="test_string">PS&gt;-Test StringTest-&lt;PS</string>
+<string name="title">PS&gt;-Event Title:Even-&lt;PS</string>
+<string name="when">PS&gt;-When:Wh-&lt;PS</string>
+<string name="test_string_time">PS&gt;-00:00AM00:-&lt;PS</string>
+<string name="to">PS&gt;-to-&lt;PS</string>
+<string name="all_day">PS&gt;-All DayAll-&lt;PS</string>
+<string name="calendar">PS&gt;-CalendarCal-&lt;PS</string>
+<string name="done">PS&gt;-DoneDo-&lt;PS</string>
+<string name="recurrence">PS&gt;-Recurrence:Recu-&lt;PS</string>
+<string name="description">PS&gt;-Description:Desc-&lt;PS</string>
+<string name="where">PS&gt;-Where:Wh-&lt;PS</string>
+<string name="reminder">PS&gt;-Reminder:Rem-&lt;PS</string>
+<string name="edit">PS&gt;-EditEd-&lt;PS</string>
+<string name="delete">PS&gt;-DeleteDe-&lt;PS</string>
+<string name="logout">PS&gt;-LogoutLo-&lt;PS</string>
+<string name="add_new_event">PS&gt;-Add New EventAdd -&lt;PS</string>
+<string name="sun">PS&gt;-Sun-&lt;PS</string>
+<string name="mon">PS&gt;-Mon-&lt;PS</string>
+<string name="tue">PS&gt;-Tue-&lt;PS</string>
+<string name="wed">PS&gt;-Wed-&lt;PS</string>
+<string name="thu">PS&gt;-Thu-&lt;PS</string>
+<string name="fri">PS&gt;-Fri-&lt;PS</string>
+<string name="sat">PS&gt;-Sat-&lt;PS</string>
+<string name="add">PS&gt;-Add-&lt;PS</string>
+<string name="synchronize_with_google_calendar">PS&gt;-Synchronize with Google CalendarSynchroniz-&lt;PS</string>
+<string name="synchronizing_calendars">PS&gt;-Synchronizing calendarsSynchro-&lt;PS</string>
+<string name="would_you_like_to_delete_this_event">PS&gt;-Would you like to delete this event?Would you l-&lt;PS</string>
+<string name="select_calendars">PS&gt;-Select CalendarsSelec-&lt;PS</string>
+<string name="edit_event">PS&gt;-Edit EventEdit-&lt;PS</string>
+
+<string name="would_you_like_to_log_out">PS&gt;-Would you like to log out of your calendar? Data will be removed until next log in.Would you like to log out-&lt;PS</string>
+<string name="WhatisGoogleCld">PS&gt;-What is Google Calendar?What is -&lt;PS</string>
+<string name="WhatisGoogleCldText">PS&gt;-With Google Calendar, it\&apos;s easy to keep track of life\&apos;s important With Google Calendar,
+events all in one place. You can view the calendars of co-workers and colleagues from one online calendar.events all in one place. You can
+Their appointments are viewable right next to yours which streamlines event planning.Their appointments are vie-&lt;PS</string>
+<string name="ExistingMember">PS&gt;-Existing MemberExist-&lt;PS</string>
+<string name="Email">PS&gt;-EmailEm-&lt;PS</string>
+<string name="EnterEmail">PS&gt;-Please enter your email addressPlease ent-&lt;PS</string>
+<string name="EnterPassword">PS&gt;-Please enter your passwordPlease e-&lt;PS</string>
+<string name="NewMember">PS&gt;-New MemberNew -&lt;PS</string>
+<string name="PleaseVisit">PS&gt;-Please visit:Plea-&lt;PS</string>
+<string name="httpGoogle">PS&gt;-http://www.google.com/acountshttp://ww-&lt;PS</string>
+<string name="CreateGoogle">PS&gt;-to create your Google Calendar account.to create yo-&lt;PS</string>
+<string name="EnterTitle">PS&gt;-Please enter event titlePlease e-&lt;PS</string>
+<string name="InvalidFromTo">PS&gt;-Invalid start and finish timeInvalid s-&lt;PS</string>
+<string name="mins_before">PS&gt;-mins beforemins-&lt;PS</string>
+<string name="none">PS&gt;-NoneNo-&lt;PS</string>
+<string name="AM1200">PS&gt;-12:00 AM12:-&lt;PS</string>
+<string name="Default24H">PS&gt;-00:0000-&lt;PS</string>
+<string name="NoTitle">PS&gt;-No TitleNo -&lt;PS</string>
+
+	<!-- HP Constant string setting -->
+
+	<string name="Printer_Preview">PS&gt;-Print PreviewPrin-&lt;PS</string>
+    <string name="str_btn_print">PS&gt;-PrintPr-&lt;PS</string>
+    <string name="str_btn_preview">PS&gt;-PreviewPre-&lt;PS</string>
+    
+    <string name="selected_printer">PS&gt;-Selected PrinterSelec-&lt;PS</string>
+
+    <string name="control_button_cancelprint">PS&gt;-Cancel PrintCanc-&lt;PS</string>
+
+    <string name="control_label_printing">PS&gt;-Printing Job Secret Project.docPrinting J-&lt;PS</string>
+
+    <string name="select_printer_button_text">PS&gt;-Select another printerSelect -&lt;PS</string>
+
+    <string name="print_button_text">PS&gt;-PrintPr-&lt;PS</string>
+
+    <string name="service_name">PS&gt;-mDNS ServicemDNS-&lt;PS</string>
+
+    <string name="service_running_msg">PS&gt;-Scanning for mDNS servicesScanning-&lt;PS</string>
+
+    <string name="service_type_added_msg">PS&gt;-New service type:New se-&lt;PS</string>
+
+    <string name="service_added_msg">PS&gt;-New service:New -&lt;PS</string>
+
+    <string name="service_removed_msg">PS&gt;-Service removed:Servi-&lt;PS</string>
+
+    <string name="service_resolved_msg">PS&gt;-Service info available:Service-&lt;PS</string>
+
+    <!-- Strings for Print Photo -->
+
+
+    <string name="searching_printers_result">PS&gt;-Searching Printers ResultSearchin-&lt;PS</string>
+
+    <string name="no_printers_found">PS&gt;-No compatible printers found.No compat-&lt;PS</string>
+
+    <string name="searching_printers">PS&gt;-Searching PrintersSearch-&lt;PS</string>
+
+    <string name="stop_search">PS&gt;-Press button to stop search.Press but-&lt;PS</string>
+
+    <string name="cancel_search">PS&gt;-Press button to cancel search.Press butt-&lt;PS</string>
+
+    <string name="details_ok">PS&gt;-OK-&lt;PS</string>
+
+    <string name="details_stop">PS&gt;-StopSt-&lt;PS</string>
+
+    <string name="details_cancel">PS&gt;-CancelCa-&lt;PS</string>
+
+    <string name="no_printer_selected">PS&gt;-None SelectedNone-&lt;PS</string>
+
+    <string name="print_job_status">PS&gt;-Print Job StatusPrint-&lt;PS</string>
+
+    <string name="print_job_failure">PS&gt;-Print Job FailurePrint -&lt;PS</string>
+
+    <string name="photo_not_printed">PS&gt;-Could not print your photo.Could not-&lt;PS</string>
+
+    <string name="details_dismiss">PS&gt;-DismissDis-&lt;PS</string>
+
+    <string name="image_too_big">PS&gt;-Image too big.Image-&lt;PS</string>
+
+    <string name="print_job_failed">PS&gt;-Job failed!Job -&lt;PS</string>
+
+    <string name="print_job_sent">PS&gt;-Job sent.Job-&lt;PS</string>
+
+    <string name="no_files_text">PS&gt;-No files found on SD Card.No files-&lt;PS</string>
+    
+    <string name="cancel">PS&gt;-CancelCa-&lt;PS</string>
+    
+    <!--  <string name="print">Print</string> -->
+
+    
+    <string name="printing_service_name">PS&gt;-PrintingServicePrint-&lt;PS</string>
+    <string name="printing_service_started">PS&gt;-Printing Service startedPrinting-&lt;PS</string>
+    <string name="printing_service_running">PS&gt;-Printing Service runningPrinting-&lt;PS</string>
+    
+    
+    <!-- Preview constant settings -->
+
+    <string name="PrintPreviewServiceNameStringID">PS&gt;-Print Preview ServicePrint P-&lt;PS</string>
+    <string name="SelectedPrinterButtonStringID">PS&gt;-SetupSe-&lt;PS</string>
+    <string name="PrintButtonStringID">PS&gt;-PrintPr-&lt;PS</string>
+    
+    <!-- PrinterSetting constants -->
+
+    <string name="AvailablePrintersStringID">PS&gt;-Available PrintersAvaila-&lt;PS</string>
+    <string name="SetupDoneButtonStringID">PS&gt;-DoneDo-&lt;PS</string>
+    <string name="PageSetupStringID">PS&gt;-Page SetupPage-&lt;PS</string>
+    <string name="PrintSettingsStringID">PS&gt;-Print SettingsPrint-&lt;PS</string>
+    <string name="PrinterSetupStringID">PS&gt;-Printer SetupPrin-&lt;PS</string>
+    <string name="RefreshButtonStringID">PS&gt;-RefreshRef-&lt;PS</string>
+    <string name="CopiesStringID">PS&gt;-CopiesCo-&lt;PS</string>
+    <string name="ColorModeStringID">PS&gt;-Color ModeColo-&lt;PS</string>
+    <string name="SearchingForPrintersStringID">PS&gt;-Searching for PrintersSearchi-&lt;PS</string>
+    <string name="DummyNumCopiesStringID">PS&gt;-1-&lt;PS</string>
+    <string name="OtherPrinterByAddressStringID">PS&gt;-OtherOt-&lt;PS</string>
+
+    <string name="PaperSizeLetterStringID">PS&gt;-US LetterUS -&lt;PS</string>
+    <string name="PaperSize4x6StringID">PS&gt;-4x6-&lt;PS</string>
+    <string name="PaperSize57xStringID">PS&gt;-5x7-&lt;PS</string>
+    <string name="MyPrinterStringID">PS&gt;-My PrinterMy P-&lt;PS</string>
+    
+    <!-- Preview Gallery -->
+
+    <string name="btnShowPreview">PS&gt;-PreviewPre-&lt;PS</string>
+    <string name="txtViewSelectedImages">PS&gt;-PreviewPre-&lt;PS</string>
+    
+    <!-- HP Printing Testing -->
+
+    <string name="btnPrintURL">PS&gt;-PRINT FROM URLPRINT-&lt;PS</string>
+    <string name="btnPrintFilePath">PS&gt;-PRINT FROM FILEPATHPRINT -&lt;PS</string>
+    
+    <!-- Direct Printing -->
+
+    <string name="btnDirectPrinting">PS&gt;-DIRECT PRINTDIRE-&lt;PS</string>
+
+	<string name="txt_ok">PS&gt;- OK -&lt;PS</string>
+    <string name="txt_cancel">PS&gt;-CancelCa-&lt;PS</string>	
+    <string name="txt_printer_preview_prompt">PS&gt;-Your print is begin sent to the printer. Seeing progress by touch the notification area in the top bar.Your print is begin sent to the-&lt;PS</string>
+    <string name="txt_printer_preview">PS&gt;-Print PreviewPrin-&lt;PS</string>
+	<string name="txt_printer_cancel">PS&gt;-Your print has been cancelledYour prin-&lt;PS</string>
+
+	<string name="Unable_2_connect_2_Internet">PS&gt;-Unable to connect to InternetUnable to-&lt;PS</string>
+	<string name="No_Google_Calendar_Content_Found">PS&gt;-No Google Calendar Content FoundNo Google -&lt;PS</string>
+	<string name="Unable_2_connect_2_Google_Calendar">PS&gt;-Unable to connect to Google CalendarUnable to c-&lt;PS</string>
+	<string name="Unable_2_recognize_username_password">PS&gt;-Unable to recognize username or passwordUnable to rec-&lt;PS</string>		
+	
+<string name="no_more_events_today">PS&gt;-No more events todayNo more-&lt;PS</string>
+<string name="downloading">PS&gt;-DownLoadingDown-&lt;PS</string>
+</resources>

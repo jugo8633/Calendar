@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <TextView android:id="@+id/control_label_printjobname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:text="@string/control_label_printing" 
+    style="?android:attr/textAppearanceLarge" />
+    
+  <ProgressBar android:id="@+id/control_progress"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:max="100"
+    android:orientation="horizontal"
+    android:layout_centerInParent="true"
+    style="?android:attr/progressBarStyleHorizontal" />
+    
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    style="@android:style/ButtonBar">
+  
+    <Button android:id="@+id/control_button_cancelprint"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/control_button_cancelprint" />
+      
+  </LinearLayout>
+</RelativeLayout>

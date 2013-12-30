@@ -1,0 +1,1261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Day View</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#Title {
+	position:absolute;
+	width:608px;
+	height:23px;
+	z-index:56;
+	left: 53px;
+	top: 55px;
+}
+.style1 {
+	font-family: "Droid Sans";
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#Month {
+	position:absolute;
+	width:628px;
+	height:23px;
+	z-index:54;
+	left: 45px;
+	top: 91px;
+}
+.style2 {
+	font-size: 18px;
+	font-family: "Droid Sans";
+	font-weight: bold;
+	color: #141414;
+}
+#Sun {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:4;
+	left: 53px;
+	top: 123px;
+}
+#Mon {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:5;
+	left: 143px;
+	top: 123px;
+}
+#Tue {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:6;
+	left: 232px;
+	top: 123px;
+}
+#Web {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:8;
+	left: 323px;
+	top: 123px;
+}
+#Thu {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:9;
+	left: 412px;
+	top: 123px;
+}
+#Fri {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:10;
+	left: 502px;
+	top: 123px;
+}
+#Sat {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:11;
+	left: 592px;
+	top: 123px;
+}
+#apDiv10 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:12;
+	left: 93px;
+	top: 160px;
+}
+.style7 {
+	font-family: "Droid Sans";
+	font-size: 18px;
+	color: #333333;
+}
+.style9 {
+	font-size: 18px;
+	color: #A6A6A6;
+}
+#apDiv11 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:13;
+	left: 182px;
+	top: 160px;
+}
+#apDiv12 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:14;
+	left: 272px;
+	top: 160px;
+}
+#apDiv13 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:15;
+	left: 363px;
+	top: 160px;
+}
+#apDiv14 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:16;
+	left: 451px;
+	top: 160px;
+}
+#apDiv15 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:17;
+	left: 541px;
+	top: 160px;
+}
+#apDiv16 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:18;
+	left: 633px;
+	top: 160px;
+}
+.style11 {
+	font-family: "Droid Sans";
+	font-size: 22px;
+	font-weight: normal;
+	color: #141414;
+}
+#apDiv17 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:17;
+	left: -506px;
+	top: 64px;
+}
+#apDiv18 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:19;
+	left: 93px;
+	top: 215px;
+}
+#apDiv19 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:20;
+	left: 182px;
+	top: 215px;
+}
+#apDiv20 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:21;
+	left: 272px;
+	top: 215px;
+}
+#apDiv21 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:22;
+	left: 362px;
+	top: 215px;
+}
+#apDiv22 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:23;
+	left: 451px;
+	top: 215px;
+}
+#apDiv23 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:24;
+	left: 541px;
+	top: 215px;
+}
+#apDiv24 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:25;
+	left: 633px;
+	top: 215px;
+}
+#apDiv25 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:26;
+	left: 93px;
+	top: 269px;
+}
+#apDiv26 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:27;
+	left: 182px;
+	top: 269px;
+}
+#apDiv27 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:28;
+	left: 272px;
+	top: 269px;
+}
+#apDiv28 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:29;
+	left: 363px;
+	top: 269px;
+}
+#apDiv29 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:30;
+	left: 451px;
+	top: 269px;
+}
+#apDiv30 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:31;
+	left: 541px;
+	top: 269px;
+}
+#apDiv31 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:32;
+	left: 633px;
+	top: 269px;
+}
+#apDiv32 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:33;
+	left: 93px;
+	top: 324px;
+}
+#apDiv33 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:34;
+	left: 182px;
+	top: 324px;
+}
+#apDiv34 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:35;
+	left: 272px;
+	top: 324px;
+}
+#apDiv35 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:36;
+	left: 362px;
+	top: 324px;
+}
+#apDiv36 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:37;
+	left: 451px;
+	top: 324px;
+}
+#apDiv37 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:38;
+	left: 541px;
+	top: 324px;
+}
+#apDiv38 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:39;
+	left: 633px;
+	top: 324px;
+}
+#apDiv39 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:40;
+	left: 93px;
+	top: 379px;
+}
+#apDiv40 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:41;
+	left: 182px;
+	top: 379px;
+}
+#apDiv41 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:42;
+	left: 272px;
+	top: 379px;
+}
+#apDiv42 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:43;
+	left: 361px;
+	top: 379px;
+}
+#apDiv43 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:44;
+	left: 451px;
+	top: 379px;
+}
+#apDiv44 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:45;
+	left: 541px;
+	top: 379px;
+}
+#apDiv45 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:46;
+	left: 633px;
+	top: 379px;
+}
+#apDiv46 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:42;
+	left: -256px;
+	top: 185px;
+}
+#apDiv47 {	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:42;
+	left: 510px;
+	top: 441px;
+}
+#apDiv48 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:45;
+	left: 103px;
+	top: 477px;
+}
+#apDiv46 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:47;
+	left: 93px;
+	top: 434px;
+}
+#apDiv49 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:48;
+	left: 182px;
+	top: 434px;
+}
+#apDiv50 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:49;
+	left: 272px;
+	top: 434px;
+}
+#apDiv51 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:50;
+	left: 361px;
+	top: 434px;
+}
+#apDiv52 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:51;
+	left: 451px;
+	top: 434px;
+}
+#apDiv53 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:52;
+	left: 541px;
+	top: 434px;
+}
+#apDiv54 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:53;
+	left: 633px;
+	top: 434px;
+}
+#apDiv55 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:52;
+	left: 354px;
+	top: 195px;
+}
+#today {
+	position:absolute;
+	width:75px;
+	height:44px;
+	z-index:2;
+	left: 585px;
+	top: 156px;
+	visibility: hidden;
+}
+#Event00 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 47px;
+	top: 156px;
+	visibility: hidden;
+}
+
+#Event01 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 134px;
+	top: 156px;
+	visibility: hidden;
+}
+#Event02 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 225px;
+	top: 156px;
+	visibility: hidden;
+}
+#Event03 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 314px;
+	top: 156px;
+	visibility: hidden;
+}
+#Event04 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 404px;
+	top: 156px;
+	visibility: hidden;
+}
+#Event05 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 495px;
+	top: 156px;
+	visibility: hidden;
+}
+#Event06 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 585px;
+	top: 156px;
+	visibility: hidden;
+}
+
+#Event10 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 47px;
+	top: 210px;
+	visibility: hidden;
+}
+
+#Event11 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 134px;
+	top: 210px;
+	visibility: hidden;
+}
+#Event12 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 225px;
+	top: 210px;
+	visibility: hidden;
+}
+#Event13 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 314px;
+	top: 210px;
+	visibility: hidden;
+}
+#Event14 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 404px;
+	top: 210px;
+	visibility: hidden;
+}
+#Event15 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 495px;
+	top: 210px;
+	visibility: hidden;
+}
+#Event16 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 585px;
+	top: 210px;
+	visibility: hidden;
+}
+
+#Event20 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 47px;
+	top: 264px;
+	visibility: hidden;
+}
+
+#Event21 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 134px;
+	top: 264px;
+	visibility: hidden;
+}
+#Event22 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 225px;
+	top: 264px;
+	visibility: hidden;
+}
+#Event23 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 314px;
+	top: 264px;
+	visibility: hidden;
+}
+#Event24 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 404px;
+	top: 264px;
+	visibility: hidden;
+}
+#Event25 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 495px;
+	top: 264px;
+	visibility: hidden;
+}
+#Event26 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 585px;
+	top: 264px;
+	visibility: hidden;
+}
+
+#Event30 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 47px;
+	top: 319px;
+	visibility: hidden;
+}
+
+#Event31 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 134px;
+	top: 319px;
+	visibility: hidden;
+}
+#Event32 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 225px;
+	top: 319px;
+	visibility: hidden;
+}
+#Event33 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 314px;
+	top: 319px;
+	visibility: hidden;
+}
+#Event34 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 404px;
+	top: 319px;
+	visibility: hidden;
+}
+#Event35 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 495px;
+	top: 319px;
+	visibility: hidden;
+}
+#Event36 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 585px;
+	top: 319px;
+	visibility: hidden;
+}
+
+#Event40 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 47px;
+	top: 374px;
+	visibility: hidden;
+}
+
+#Event41 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 134px;
+	top: 374px;
+	visibility: hidden;
+}
+#Event42 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 225px;
+	top: 374px;
+	visibility: hidden;
+}
+#Event43 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 314px;
+	top: 374px;
+	visibility: hidden;
+}
+#Event44 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 404px;
+	top: 374px;
+	visibility: hidden;
+}
+#Event45 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 495px;
+	top: 374px;
+	visibility: hidden;
+}
+#Event46 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 585px;
+	top: 374px;
+	visibility: hidden;
+}
+
+#Event50 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 47px;
+	top: 428px;
+	visibility: hidden;
+}
+
+#Event51 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 134px;
+	top: 428px;
+	visibility: hidden;
+}
+#Event52 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 225px;
+	top: 428px;
+	visibility: hidden;
+}
+#Event53 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 314px;
+	top: 428px;
+	visibility: hidden;
+}
+#Event54 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 404px;
+	top: 428px;
+	visibility: hidden;
+}
+#Event55 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 495px;
+	top: 428px;
+	visibility: hidden;
+}
+#Event56 {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 585px;
+	top: 428px;
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+.style17 {font-family: "Droid Sans"; font-size: 12px; color: #333333; }
+.style18 {font-size: 18px}
+.style19 {font-family: "Droid Sans"}
+.style20 {font-family: "Droid Sans"; color: #A6A6A6;}
+.style21 {color: #141414; font-family: "Droid Sans";}
+
+#content1 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:57;
+	left: 32px;
+	top: 571px;
+}
+#content2 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:58;
+	left: 484px;
+	top: 571px;
+}
+.style23 {
+	font-size: 14px;
+	font-family: "Droid Sans";
+	font-weight: bold;
+	color: #787878;
+}
+#content3 {
+	position:absolute;
+	width:651px;
+	height:21px;
+	z-index:59;
+	left: 32px;
+	top: 592px;
+}
+
+#content4 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:60;
+	left: 32px;
+	top: 640px;
+}
+#content5 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:61;
+	left: 484px;
+	top: 640px;
+}
+#content6 {
+	position:absolute;
+	width:651px;
+	height:21px;
+	z-index:62;
+	left: 32px;
+	top: 663px;
+}
+.style25 {
+	font-size: 16px;
+	font-family: "Droid Sans";
+	font-weight: bold;
+	color: #1c88b6;
+}
+#content7 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:63;
+	left: 32px;
+	top: 712px;
+}
+#content8 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:64;
+	left: 484px;
+	top: 712px;
+}
+#content9 {
+	position:absolute;
+	width:651px;
+	height:21px;
+	z-index:65;
+	left: 32px;
+	top: 733px;
+}
+#content10 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:66;
+	left: 32px;
+	top: 784px;
+}
+#content11 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:67;
+	left: 484px;
+	top: 784px;
+}
+#content12 {
+	position:absolute;
+	width:651px;
+	height:21px;
+	z-index:68;
+	left: 32px;
+	top: 806px;
+}
+#content13 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:69;
+	left: 32px;
+	top: 854px;
+}
+#content14 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:70;
+	left: 484px;
+	top: 854px;
+}
+#content15 {
+	position:absolute;
+	width:651px;
+	height:21px;
+	z-index:71;
+	left: 32px;
+	top: 876px;
+}
+#content16 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:72;
+	left: 32px;
+	top: 922px;
+}
+#content17 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:73;
+	left: 484px;
+	top: 922px;
+}
+#content18 {
+	position:absolute;
+	width:651px;
+	height:21px;
+	z-index:74;
+	left: 32px;
+	top: 944px;
+}
+-->
+</style></head>
+
+<body>
+<div id="Month">
+  <div align="center" class="style2">@id:MonthYear@</div>
+</div>
+<div id="Sun">
+  <div align="center" class="style17">Sun</div>
+</div>
+<div id="Mon">
+  <div align="center"><span class="style17">Mon</span></div>
+</div>
+<div id="Tue">
+  <div align="center"><span class="style17">Tue</span></div>
+</div>
+<div id="apDiv10">
+  <div align="right"><span class="style@:@">@0:0@</span></div>
+</div>
+<div id="apDiv11">
+  <div align="right"><span class="style@:@">@0:1@</span></div>
+</div>
+<div id="apDiv12">
+  <div align="right"><span class="style@:@">@0:2@</span></div>
+</div>
+<div id="apDiv18">
+  <div align="right"><span class="style@:@">@1:0@</span></div>
+</div>
+<div id="apDiv19">
+  <div align="right"><span class="style@:@">@1:1@</span></div>
+</div>
+<div id="apDiv20">
+  <div align="right"><span class="style@:@">@1:2@</span></div>
+</div>
+<div id="apDiv25">
+  <div align="right"><span class="style@:@">@2:0@</span></div>
+</div>
+<div id="apDiv26">
+  <div align="right"><span class="style@:@">@2:1@</span></div>
+</div>
+<div id="apDiv32">
+  <div align="right"><span class="style@:@">@3:0@</span></div>
+</div>
+<div id="apDiv33">
+  <div align="right"><span class="style@:@">@3:1@</span></div>
+</div>
+<div id="apDiv34">
+  <div align="right"><span class="style@:@">@3:2@</span></div>
+</div>
+<div id="apDiv35">
+  <div align="right"><span class="style@:@">@3:3@</span></div>
+</div>
+<div id="apDiv39">
+  <div align="right"><span class="style@:@">@4:0@</span></div>
+</div>
+<div id="apDiv46">
+  <div align="right"><span class="style@:@">@5:0@</span></div>
+</div>
+<div id="apDiv49">
+  <div align="right"><span class="style@:@">@5:1@</span></div>
+</div>
+<div id="apDiv50">
+  <div align="right"><span class="style@:@">@5:2@</span></div>
+</div>
+
+<img src="@img:calendar_v@" width="720" height="1024" />
+<div id="apDiv54">
+  <div align="right"><span class="style@:@">@5:6@</span></div>
+</div>
+<div id="apDiv53">
+  <div align="right"><span class="style@:@">@5:5@</span></div>
+</div>
+<div id="apDiv52">
+  <div align="right"><span class="style@:@">@5:4@</span></div>
+</div>
+<div id="apDiv51">
+  <div align="right"><span class="style@:@">@5:3@</span></div>
+</div>
+<div id="apDiv45">
+  <div align="right"><span class="style@:@">@4:6@</span></div>
+</div>
+<div id="apDiv41">
+  <div align="right"><span class="style@:@">@4:2@</span></div>
+</div>
+<div id="apDiv40">
+  <div align="right"><span class="style@:@">@4:1@</span></div>
+</div>
+<div id="apDiv38">
+  <div align="right"><span class="style@:@">@3:6@</span></div>
+</div>
+<div id="apDiv37">
+  <div align="right"><span class="style@:@">@3:5@</span></div>
+</div>
+<div id="apDiv36">
+  <div align="right"><span class="style@:@">@3:4@</span></div>
+</div>
+<div id="apDiv31">
+  <div align="right"><span class="style@:@">@2:6@</span></div>
+</div>
+<div id="apDiv30">
+  <div align="right"><span class="style@:@">@2:5@</span></div>
+</div>
+<div id="apDiv29">
+  <div align="right"><span class="style@:@">@2:4@</span></div>
+</div>
+<div id="apDiv28">
+  <div align="right"><span class="style@:@">@2:3@</span></div>
+</div>
+<div id="apDiv27">
+  <div align="right"><span class="style@:@">@2:2@</span></div>
+</div>
+<div id="apDiv24">
+  <div align="right"><span class="style@:@">@1:6@</span></div>
+</div>
+<div id="apDiv23">
+  <div align="right"><span class="style@:@">@1:5@</span></div>
+</div>
+<div id="apDiv22">
+  <div align="right"><span class="style@:@">@1:4@</span></div>
+</div>
+<div id="apDiv21">
+  <div align="right"><span class="style@:@">@1:3@</span></div>
+</div>
+<div id="apDiv16">
+  <div align="right"><span class="style@:@">@0:6@</span></div>
+</div>
+<div id="apDiv15">
+  <div align="right"><span class="style@:@">@0:5@</span></div>
+</div>
+<div id="apDiv14">
+  <div align="right"><span class="style@:@">@0:4@</span></div>
+</div>
+<div id="apDiv13">
+  <div align="right"><span class="style@:@">@0:3@</span></div>
+</div>
+<div id="Sat">
+  <div align="center"><span class="style17">Sat</span></div>
+</div>
+<div id="Fri">
+  <div align="center"><span class="style17">Fri</span></div>
+</div>
+<div id="Thu">
+  <div align="center"><span class="style17">Thu</span></div>
+</div>
+<div id="Web">
+  <div align="center"><span class="style17">Wed</span></div>
+</div>
+<div class="style1" id="Title">@We:ek:day@, &nbsp; @Sel:MM:DD@, &nbsp;@Sel:YY:YY@</div>
+<div id="apDiv42">
+  <div align="right"><span class="style@:@">@4:3@</span></div>
+</div>
+<div id="apDiv44">
+  <div align="right"><span class="style@:@">@4:5@</span></div>
+</div>
+<div id="apDiv43">
+  <div align="right"><span class="style@:@">@4:4@</span></div>
+</div>
+<div id="today"><img src="@img:calendar_today_s@" width="89" height="53" /></div>
+<div id="Event00"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event01"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event02"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event03"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event04"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event05"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event06"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+
+<div id="Event10"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event11"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event12"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event13"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event14"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event15"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event16"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+
+<div id="Event20"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event21"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event22"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event23"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event24"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event25"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event26"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+
+<div id="Event30"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event31"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event32"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event33"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event34"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event35"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event36"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+
+<div id="Event40"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event41"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event42"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event43"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event44"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event45"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event46"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+
+<div id="Event50"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event51"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event52"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event53"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event54"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event55"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+<div id="Event56"><img src="@img:print_calendar_event_s@" width="89" height="53" /></div>
+

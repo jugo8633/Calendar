@@ -1,0 +1,48 @@
+<LinearLayout android:id="@+id/llLoadingMain" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@android:color/black" 
+android:orientation="vertical" 
+android:gravity="center">
+
+<ImageView android:id="@+id/ivLoadingLogo" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_gravity="center" 
+android:src="@drawable/calendar_logo">
+</ImageView>
+
+<ProgressBar
+style="?android:attr/progressBarStyleHorizontal" 
+android:id="@+id/pbLoading" 
+android:progressDrawable="@drawable/loadingbar"
+android:layout_centerHorizontal="true" 
+android:layout_width="200px" 
+android:layout_height="10px" 
+android:layout_below="@+id/ivTitleIcon" 
+android:layout_marginTop="10px"
+android:max="100">
+</ProgressBar>
+
+<TextView android:id="@+id/tvLoadingTitle"
+android:layout_height="wrap_content" 
+android:layout_centerHorizontal="true" 
+android:layout_width="wrap_content" 
+android:text="@string/app_name" 
+android:layout_marginTop="10px" 
+android:layout_below="@+id/pbLoading" 
+android:textSize="@android:dimen/HP.Type.18" android:textColor="@android:color/HP.Color.Gray1">
+</TextView>
+
+<TextView android:id="@+id/tvConnect"
+android:layout_height="wrap_content" 
+android:layout_centerHorizontal="true" 
+android:layout_width="wrap_content" 
+android:layout_below="@+id/tvTitle" 
+android:layout_marginTop="10px" 
+android:text="@string/loadingConnecting" 
+android:textSize="@android:dimen/HP.Type.14" android:textColor="@android:color/HP.Color.Gray2">
+</TextView>
+
+</LinearLayout>

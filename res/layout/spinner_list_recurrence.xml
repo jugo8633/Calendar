@@ -1,0 +1,35 @@
+<RelativeLayout android:id="@+id/rlSpinnerListRecurrenceMain" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content">
+
+<TextView android:id="@+id/tvSpinnerEditRecurrence" 
+android:gravity="center" 
+android:paddingRight="35dip" 
+android:clickable="true" 
+android:background="@drawable/dropdown_mid_245x40" 
+android:textSize="@android:dimen/HP.Type.18" android:textStyle="bold" android:textColor="@android:color/HP.Color.Gray1" android:layout_width="280dip" android:layout_height="35dp"/>
+
+<ViewFlipper 
+android:id="@+id/flipperSpinnerListRecurrence"
+android:layout_height="wrap_content" 
+android:layout_below="@+id/tvSpinnerEditRecurrence" android:layout_width="wrap_content">
+
+<TextView 
+android:id="@+id/tvtmp" android:layout_height="wrap_content" 
+android:visibility="gone" android:layout_width="wrap_content"/>
+
+<ListView 
+android:id="@+id/lvSpinnerMenuRecurrence" 
+android:isScrollContainer="true" 
+android:choiceMode="singleChoice" 
+android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical_blue" 
+android:scrollbarTrackVertical="@drawable/scrolling_bar_v" 
+android:scrollbars="vertical" 
+android:longClickable="false" 
+android:clickable="false" 
+android:layout_gravity="center_horizontal" 
+android:layout_height="120dip" android:layout_width="280dip"/>
+
+</ViewFlipper>
+</RelativeLayout>

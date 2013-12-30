@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent" 
+  android:gravity="center"
+  android:id="@+id/rlEventFootbarMain">
+  
+<!-- edit -->  
+ <HpFooterBarButton 
+		android:text="@string/edit" 
+		android:id="@+id/fbEdit" 
+		android:layout_height="wrap_content" 
+        
+        android:resourceNotSelect="@drawable/calendar_edit"
+       android:resourceSelected="@drawable/calendar_edit_f"
+       android:resourceDisable="@drawable/calendar_edit_disable" 
+       android:layout_marginTop="3dp" android:layout_width="266.6dp"/>
+      
+<!-- delete -->        
+<HpFooterBarButton 
+		android:text="@string/delete" 
+		android:id="@+id/fbDelete" 
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/fbEdit" 
+        android:resourceNotSelect="@drawable/calendar_remove"
+       android:resourceSelected="@drawable/calendar_remove_f"
+       android:resourceDisable="@drawable/calendar_remove_disable" 
+       android:layout_marginTop="3dp" android:layout_width="266.7dp"/>
+    
+<!-- print -->        
+<HpFooterBarButton 
+		android:text="@string/Print" 
+		android:id="@+id/fbPrint" 
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@+id/fbDelete" 
+        android:resourceNotSelect="@drawable/print"
+       android:resourceSelected="@drawable/print_f"
+       android:resourceDisable="@drawable/print" 
+       android:layout_marginTop="3dp" android:layout_width="266.6dp"/>  
+</RelativeLayout>

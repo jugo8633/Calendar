@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent" 
+  android:gravity="center" 
+  android:id="@+id/rlCalendarFootbarMain">
+  
+<!-- month view -->  
+ <HpFooterBarButton 
+  android:text="@string/Month_View" 
+  android:id="@+id/fbMonthView" 
+  android:layout_height="wrap_content" 
+        
+  android:resourceNotSelect="@drawable/calendar_month_view"
+  android:resourceSelected="@drawable/calendar_month_view_f"
+  android:resourceDisable="@drawable/calendar_month_view" 
+  android:layout_marginTop="3dp" android:layout_width="100dp"/>
+      
+<!-- day view -->        
+<HpFooterBarButton 
+  android:text="@string/day_view" 
+  android:id="@+id/fbDayView" 
+  android:layout_height="wrap_content" 
+  android:layout_toRightOf="@+id/fbMonthView" 
+  android:resourceNotSelect="@drawable/day_view"
+  android:resourceSelected="@drawable/day_view_f"
+  android:resourceDisable="@drawable/day_view" 
+  android:layout_marginTop="3dp" android:layout_width="80dp" android:layout_marginLeft="-10dp"/>
+    
+<!-- today -->        
+<HpFooterBarButton 
+  android:text="@string/Today" 
+  android:id="@+id/fbToday" 
+  android:layout_height="wrap_content" 
+  android:layout_toRightOf="@+id/fbDayView" 
+  android:resourceNotSelect="@drawable/today"
+  android:resourceSelected="@drawable/today_f"
+  android:resourceDisable="@drawable/today" 
+  android:layout_marginTop="3dp" android:layout_width="80dp"/>
+    
+<!-- add -->       
+<HpFooterBarButton 
+  android:text="@string/add" 
+  android:id="@+id/fbAdd" 
+  android:layout_height="wrap_content" 
+  android:layout_toRightOf="@+id/fbToday" 
+  android:resourceNotSelect="@drawable/event_new"
+  android:resourceSelected="@drawable/event_new_f"
+  android:resourceDisable="@drawable/event_new" 
+  android:layout_marginTop="3dp" android:layout_width="80dp"/>  
+
+<!-- print -->       
+<HpFooterBarButton 
+  android:text="@string/print" 
+  android:id="@+id/fbPrint" 
+  android:layout_height="wrap_content" 
+  android:layout_toRightOf="@+id/fbAdd" 
+  android:resourceNotSelect="@drawable/print"
+  android:resourceSelected="@drawable/print_f"
+  android:resourceDisable="@drawable/print" 
+  android:layout_marginTop="3dp" android:layout_width="80dp"/> 
+       
+<HpFooterBarButton 
+  android:text="@string/more" 
+  android:id="@+id/fbMore" 
+  android:layout_height="wrap_content" 
+  android:layout_toRightOf="@+id/fbPrint" 
+  android:resourceNotSelect="@drawable/more"
+  android:resourceSelected="@drawable/more_f"
+  android:resourceDisable="@drawable/more" 
+  android:layout_marginTop="3dp" android:layout_width="80dp"/>                   
+</RelativeLayout>

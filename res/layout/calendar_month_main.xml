@@ -1,0 +1,30 @@
+<RelativeLayout android:id="@+id/llMonthMain" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Gallery android:id="@+id/GalleryMonth" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:addStatesFromChildren="true" 
+android:visibility="gone" 
+android:drawingCacheQuality="high"/>
+
+<HpVerticalGallery android:id="@+id/GalleryMonthV" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:addStatesFromChildren="true" 
+android:visibility="gone" 
+android:drawingCacheQuality="high"/>
+
+<frame.view.MenuList
+android:id="@+id/rlMonthMenuList" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+<!--
+android:listSelector="#8fff" makes it so just the foreground changes on selection 
+ -->

@@ -1,0 +1,813 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Day View</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#Title {
+	position:absolute;
+	width:516px;
+	height:23px;
+	z-index:56;
+	left: 47px;
+	top: 44px;
+}
+#Month {
+	position:absolute;
+	width:532px;
+	height:23px;
+	z-index:54;
+	left: 40px;
+	top: 77px;
+}
+#Sun {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:4;
+	left: 39px;
+	top: 111px;
+}
+#Mon {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:5;
+	left: 116px;
+	top: 111px;
+}
+#Tue {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:6;
+	left: 192px;
+	top: 111px;
+}
+#Web {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:8;
+	left: 268px;
+	top: 111px;
+}
+#Thu {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:9;
+	left: 344px;
+	top: 111px;
+}
+#Fri {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:10;
+	left: 420px;
+	top: 111px;
+}
+#Sat {
+	position:absolute;
+	width:75px;
+	height:18px;
+	z-index:11;
+	left: 496px;
+	top: 111px;
+}
+#apDiv10 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:12;
+	left: 75px;
+	top: 138px;
+}
+#apDiv11 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:13;
+	left: 151px;
+	top: 138px;
+}
+#apDiv12 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:14;
+	left: 227px;
+	top: 138px;
+}
+#apDiv13 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:15;
+	left: 304px;
+	top: 138px;
+}
+#apDiv14 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:16;
+	left: 380px;
+	top: 138px;
+}
+#apDiv15 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:17;
+	left: 457px;
+	top: 138px;
+}
+#apDiv16 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:18;
+	left: 532px;
+	top: 138px;
+}
+#apDiv11 .style11 {
+	font-family: "Droid Sans";
+	font-size: 22px;
+	font-weight: normal;
+	color: #141414;
+}
+#apDiv17 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:17;
+	left: -506px;
+	top: 64px;
+}
+#apDiv18 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:19;
+	left: 75px;
+	top: 184px;
+}
+#apDiv19 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:20;
+	left: 151px;
+	top: 184px;
+}
+#apDiv20 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:21;
+	left: 227px;
+	top: 184px;
+}
+#apDiv21 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:22;
+	left: 304px;
+	top: 184px;
+}
+#apDiv22 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:23;
+	left: 380px;
+	top: 184px;
+}
+#apDiv23 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:24;
+	left: 457px;
+	top: 184px;
+}
+#apDiv24 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:25;
+	left: 532px;
+	top: 184px;
+}
+#apDiv25 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:26;
+	left: 75px;
+	top: 230px;
+}
+#apDiv26 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:27;
+	left: 151px;
+	top: 230px;
+}
+#apDiv27 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:28;
+	left: 227px;
+	top: 230px;
+}
+#apDiv28 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:29;
+	left: 304px;
+	top: 230px;
+}
+#apDiv29 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:30;
+	left: 380px;
+	top: 230px;
+}
+#apDiv30 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:31;
+	left: 457px;
+	top: 230px;
+}
+#apDiv31 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:32;
+	left: 532px;
+	top: 230px;
+}
+#apDiv32 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:33;
+	left: 75px;
+	top: 277px;
+}
+#apDiv33 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:34;
+	left: 151px;
+	top: 277px;
+}
+#apDiv34 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:35;
+	left: 227px;
+	top: 277px;
+}
+#apDiv35 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:36;
+	left: 304px;
+	top: 277px;
+}
+#apDiv36 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:37;
+	left: 380px;
+	top: 277px;
+}
+#apDiv37 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:38;
+	left: 457px;
+	top: 277px;
+}
+#apDiv38 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:39;
+	left: 532px;
+	top: 277px;
+}
+#apDiv39 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:40;
+	left: 75px;
+	top: 323px;
+}
+#apDiv40 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:41;
+	left: 151px;
+	top: 323px;
+}
+#apDiv41 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:42;
+	left: 227px;
+	top: 323px;
+}
+#apDiv42 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:43;
+	left: 304px;
+	top: 323px;
+}
+#apDiv43 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:44;
+	left: 380px;
+	top: 323px;
+}
+#apDiv44 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:45;
+	left: 457px;
+	top: 323px;
+}
+#apDiv45 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:46;
+	left: 532px;
+	top: 323px;
+}
+#apDiv46 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:42;
+	left: -256px;
+	top: 185px;
+}
+#apDiv47 {	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:42;
+	left: 510px;
+	top: 441px;
+}
+#apDiv48 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:45;
+	left: 103px;
+	top: 477px;
+}
+#apDiv46 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:47;
+	left: 75px;
+	top: 369px;
+}
+#apDiv49 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:48;
+	left: 151px;
+	top: 369px;
+}
+#apDiv50 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:49;
+	left: 227px;
+	top: 369px;
+}
+#apDiv51 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:50;
+	left: 304px;
+	top: 369px;
+}
+#apDiv52 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:51;
+	left: 380px;
+	top: 369px;
+}
+#apDiv53 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:52;
+	left: 457px;
+	top: 369px;
+}
+#apDiv54 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:53;
+	left: 532px;
+	top: 369px;
+}
+#apDiv55 {
+	position:absolute;
+	width:35px;
+	height:35px;
+	z-index:52;
+	left: 354px;
+	top: 195px;
+}
+#today {
+	position:absolute;
+	width:75px;
+	height:44px;
+	z-index:2;
+	left: 498px;
+	top: 135px;
+}
+#Event {
+	position:absolute;
+	width:75px;
+	height:45px;
+	z-index:55;
+	left: 498px;
+	top: 135px;
+}
+.style19 {font-family: "Droid Sans"}
+.style21 {color: #141414; font-family: "Droid Sans";}
+#content1 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:57;
+	left: 30px;
+	top: 58px;
+}
+#content2 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:58;
+	left: 484px;
+	top: 58px;
+}
+.style23 {
+	font-size: 14px;
+	font-family: "Droid Sans";
+	font-weight: bold;
+	color: #787878;
+}
+#content3 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:59;
+	left: 30px;
+	top: 79px;
+}
+#content4 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:60;
+	left: 30px;
+	top: 128px;
+}
+#content5 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:61;
+	left: 484px;
+	top: 128px;
+}
+#content6 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:62;
+	left: 30px;
+	top: 151px;
+}
+.style25 {
+	font-size: 16px;
+	font-family: "Droid Sans";
+	font-weight: bold;
+	color: #1c88b6;
+}
+#content7 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:63;
+	left: 30px;
+	top: 200px;
+}
+#content8 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:64;
+	left: 484px;
+	top: 200px;
+}
+#content9 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:65;
+	left: 30px;
+	top: 221px;
+}
+#content10 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:66;
+	left: 30px;
+	top: 271px;
+}
+#content11 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:67;
+	left: 484px;
+	top: 271px;
+}
+#content12 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:68;
+	left: 30px;
+	top: 292px;
+}
+#content13 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:69;
+	left: 30px;
+	top: 343px;
+}
+#content14 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:70;
+	left: 484px;
+	top: 343px;
+}
+#content15 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:71;
+	left: 30px;
+	top: 363px;
+}
+#content16 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:72;
+	left: 30px;
+	top: 416px;
+}
+#content17 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:73;
+	left: 484px;
+	top: 416px;
+}
+#content18 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:74;
+	left: 30px;
+	top: 436px;
+}
+#content19 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:75;
+	left: 30px;
+	top: 483px;
+}
+#content20 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:76;
+	left: 484px;
+	top: 483px;
+}
+#content21 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:77;
+	left: 30px;
+	top: 507px;
+}
+#content22 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:78;
+	left: 30px;
+	top: 556px;
+}
+#content23 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:79;
+	left: 484px;
+	top: 556px;
+}
+#content24 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:80;
+	left: 30px;
+	top: 578px;
+}
+#content25 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:81;
+	left: 30px;
+	top: 627px;
+}
+#content26 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:82;
+	left: 484px;
+	top: 627px;
+}
+#content27 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:83;
+	left: 30px;
+	top: 649px;
+}
+#content28 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:84;
+	left: 30px;
+	top: 697px;
+}
+#content29 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:85;
+	left: 484px;
+	top: 697px;
+}
+#content30 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:86;
+	left: 30px;
+	top: 720px;
+}
+#content31 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:87;
+	left: 30px;
+	top: 771px;
+}
+#content32 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:88;
+	left: 484px;
+	top: 771px;
+}
+#content33 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:89;
+	left: 30px;
+	top: 793px;
+}
+#content34 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:90;
+	left: 30px;
+	top: 839px;
+}
+#content35 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:91;
+	left: 484px;
+	top: 839px;
+}
+#content36 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:92;
+	left: 30px;
+	top: 863px;
+}
+#content37 {
+	position:absolute;
+	width:452px;
+	height:21px;
+	z-index:93;
+	left: 30px;
+	top: 909px;
+}
+#content38 {
+	position:absolute;
+	width:199px;
+	height:21px;
+	z-index:94;
+	left: 484px;
+	top: 909px;
+}
+#content39 {
+	position:absolute;
+	width:653px;
+	height:21px;
+	z-index:95;
+	left: 30px;
+	top: 933px;
+}
+-->
+</style></head>
+
+<body>
+<img src="@img:calendar_v1@" width="720" height="1024" />

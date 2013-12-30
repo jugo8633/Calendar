@@ -1,0 +1,37 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:background="@drawable/content_popup_h_430x199_02" 
+android:layout_width="400dp" 
+android:id="@+id/rlPrintCheckDlgMain" 
+android:layout_height="160dp">
+
+
+<TextView 
+android:id="@+id/tvPrintCheckDlgCaption" 
+android:layout_centerHorizontal="true" 
+android:textStyle="bold" 
+android:gravity="center" 
+android:layout_height="70dp" 
+android:layout_width="320sp" 
+android:layout_marginTop="20dp" android:textSize="@android:dimen/HP.Type.14" android:textColor="@android:color/HP.Color.Gray1"/>
+
+<RelativeLayout 
+android:id="@+id/rlPrintCheckDlgBtn" 
+android:gravity="center_vertical" 
+android:layout_alignParentBottom="true" 
+android:layout_width="200dp" 
+android:layout_height="50dp" 
+android:layout_centerHorizontal="true" 
+android:layout_marginBottom="12dp">
+
+<TextView android:gravity="center" 
+android:id="@+id/tvPrintCheckDlgOkBtn" 
+android:layout_alignParentRight="true" android:text="@string/Yes" android:textSize="@android:dimen/HP.Type.18" android:textColor="@android:color/HP.Color.Gray1" android:layout_width="80dip" android:layout_height="40dip" style="@android:style/HP.Button" android:textStyle="bold"/>
+
+<TextView android:id="@+id/tvPrintCheckDlgNoBtn" 
+android:text="@string/No" 
+android:gravity="center" 
+android:layout_alignParentLeft="true" android:textSize="@android:dimen/HP.Type.18" android:textColor="@android:color/HP.Color.Gray1" android:layout_height="40dip" android:layout_width="80dip" style="@android:style/HP.Button" android:textStyle="bold"/>
+</RelativeLayout>
+
+</RelativeLayout>

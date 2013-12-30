@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string hpid="37768" name="app_name">37768^Calendar</string>
+<string hpid="52822" name="loadingTitle">52822^Calendar</string>
+<string hpid="54829" name="loadingConnecting">54829^Connecting to the Internet...</string>
+<string hpid="15870" name="loadingFail">15870^Connecting to the Internet fail...</string>
+<string hpid="21533" name="loginTitle">21533^Sign in to Google Calendar</string>
+<string hpid="11343" name="Skip">11343^Skip</string>
+<string hpid="8044" name="ok">8044^OK</string>
+<string hpid="5820" name="Account">5820^Account</string>
+<string hpid="53365" name="Password">53365^Password</string>
+<string hpid="36670" name="SavePassword">36670^Save Password</string>
+<string hpid="1637" name="MultiCalendar">1637^More-Calendars</string>
+<string hpid="37845" name="Synch">37845^Synch</string>
+
+<string hpid="35957" name="No">35957^No</string>
+<string hpid="42682" name="Yes">42682^Yes</string>
+<string hpid="45652" name="LogoutInfo">45652^Would you like to log out of your calendar? Data will be removed until next log in.</string>
+<string hpid="64054" name="FC_month_view">64054^Family Calendar - Month View</string>
+<string hpid="30975" name="Month_View">30975^Month View</string>
+<string hpid="30085" name="Today">30085^Today</string>
+<string hpid="50011" name="New_Event">50011^New Event</string>
+<string hpid="12071" name="Print">12071^Print</string>
+<string hpid="64195" name="More">64195^More</string>
+<string hpid="64077" name="FC_day_view">64077^Family Calendar - Day View</string>
+<string hpid="4969" name="login_fail">4969^Google Calendar Login Fail</string>
+<string hpid="39753" name="day_view">39753^Day View</string>
+<string hpid="45572" name="today">45572^Today</string>
+<string hpid="62482" name="quick_add">62482^Quick Add</string>
+<string hpid="50499" name="new_event">50499^New Event</string>
+<string hpid="59558" name="print">59558^Print</string>
+<string hpid="15048" name="more">15048^More</string>
+<string hpid="22889" name="test_string">22889^Test String</string>
+<string hpid="42496" name="title">42496^Event Title:</string>
+<string hpid="54320" name="when">54320^When:</string>
+<string hpid="53245" name="test_string_time">53245^00:00AM</string>
+<string hpid="11367" name="to">11367^to</string>
+<string hpid="6738" name="all_day">6738^All Day</string>
+<string hpid="7559" name="calendar">7559^Calendar</string>
+<string hpid="26307" name="done">26307^Done</string>
+<string hpid="23283" name="recurrence">23283^Recurrence:</string>
+<string hpid="38322" name="description">38322^Description:</string>
+<string hpid="65308" name="where">65308^Where:</string>
+<string hpid="3345" name="reminder">3345^Reminder:</string>
+<string hpid="25713" name="edit">25713^Edit</string>
+<string hpid="18606" name="delete">18606^Delete</string>
+<string hpid="48084" name="logout">48084^Logout</string>
+<string hpid="60265" name="add_new_event">60265^Add New Event</string>
+<string hpid="42838" name="sun">42838^Sun</string>
+<string hpid="49469" name="mon">49469^Mon</string>
+<string hpid="41382" name="tue">41382^Tue</string>
+<string hpid="41370" name="wed">41370^Wed</string>
+<string hpid="15790" name="thu">15790^Thu</string>
+<string hpid="37124" name="fri">37124^Fri</string>
+<string hpid="27864" name="sat">27864^Sat</string>
+<string hpid="62842" name="add">62842^Add</string>
+<string hpid="6791" name="synchronize_with_google_calendar">6791^Synchronize with Google Calendar</string>
+<string hpid="7112" name="synchronizing_calendars">7112^Synchronizing calendars</string>
+<string hpid="46120" name="would_you_like_to_delete_this_event">46120^Would you like to delete this event?</string>
+<string hpid="29749" name="select_calendars">29749^Select Calendars</string>
+<string hpid="40477" name="edit_event">40477^Edit Event</string>
+
+<string hpid="16100" name="would_you_like_to_log_out">16100^Would you like to log out of your calendar? Data will be removed until next log in.</string>
+<string hpid="52986" name="WhatisGoogleCld">52986^What is Google Calendar?</string>
+<string name="WhatisGoogleCldText">With Google Calendar, it\'s easy to keep track of life\'s important 
+events all in one place. You can view the calendars of co-workers and colleagues from one online calendar.
+Their appointments are viewable right next to yours which streamlines event planning.</string>
+<string hpid="63640" name="ExistingMember">63640^Existing Member</string>
+<string hpid="49326" name="Email">49326^Email</string>
+<string hpid="25953" name="EnterEmail">25953^Please enter your email address</string>
+<string hpid="48958" name="EnterPassword">48958^Please enter your password</string>
+<string hpid="25065" name="NewMember">25065^New Member</string>
+<string hpid="14419" name="PleaseVisit">14419^Please visit:</string>
+<string hpid="55352" name="httpGoogle">55352^http://www.google.com/accounts</string>
+<string hpid="12731" name="CreateGoogle">12731^to create your Google Calendar account.</string>
+<string hpid="50254" name="EnterTitle">50254^Please enter event title</string>
+<string hpid="25270" name="InvalidFromTo">25270^Invalid start and finish time</string>
+<string hpid="16020" name="mins_before">16020^mins before</string>
+<string hpid="48832" name="none">48832^None</string>
+<string hpid="14488" name="AM1200">14488^12:00 AM</string>
+<string hpid="12821" name="Default24H">12821^00:00</string>
+<string hpid="14886" name="NoTitle">14886^No Title</string>
+
+	<!-- HP Constant string setting -->
+	<string hpid="3317" name="Printer_Preview">3317^Print Preview</string>
+    <string hpid="32522" name="str_btn_print">32522^Print</string>
+    <string hpid="37290" name="str_btn_preview">37290^Preview</string>
+    
+    <string hpid="2310" name="selected_printer">2310^Selected Printer</string>
+
+    <string hpid="58222" name="control_button_cancelprint">58222^Cancel Print</string>
+
+    <string hpid="34120" name="control_label_printing">34120^Printing Job Secret Project.doc</string>
+
+    <string hpid="59283" name="select_printer_button_text">59283^Select another printer</string>
+
+    <string hpid="42174" name="print_button_text">42174^Print</string>
+
+    <string hpid="1262" name="service_name">1262^mDNS Service</string>
+
+    <string hpid="19026" name="service_running_msg">19026^Scanning for mDNS services</string>
+
+    <string hpid="40298" name="service_type_added_msg">40298^New service type:</string>
+
+    <string hpid="13159" name="service_added_msg">13159^New service:</string>
+
+    <string hpid="22829" name="service_removed_msg">22829^Service removed:</string>
+
+    <string hpid="36766" name="service_resolved_msg">36766^Service info available:</string>
+
+    <!-- Strings for Print Photo -->
+
+    <string hpid="8230" name="searching_printers_result">8230^Searching Printers Result</string>
+
+    <string hpid="23188" name="no_printers_found">23188^No compatible printers found.</string>
+
+    <string hpid="23989" name="searching_printers">23989^Searching Printers</string>
+
+    <string hpid="23158" name="stop_search">23158^Press button to stop search.</string>
+
+    <string hpid="41007" name="cancel_search">41007^Press button to cancel search.</string>
+
+    <string hpid="37244" name="details_ok">37244^OK</string>
+
+    <string hpid="12027" name="details_stop">12027^Stop</string>
+
+    <string hpid="15127" name="details_cancel">15127^Cancel</string>
+
+    <string hpid="22011" name="no_printer_selected">22011^None Selected</string>
+
+    <string hpid="8393" name="print_job_status">8393^Print Job Status</string>
+
+    <string hpid="34944" name="print_job_failure">34944^Print Job Failure</string>
+
+    <string hpid="23210" name="photo_not_printed">23210^Could not print your photo.</string>
+
+    <string hpid="47723" name="details_dismiss">47723^Dismiss</string>
+
+    <string hpid="44126" name="image_too_big">44126^Image too big.</string>
+
+    <string hpid="36617" name="print_job_failed">36617^Job failed!</string>
+
+    <string hpid="30914" name="print_job_sent">30914^Job sent.</string>
+
+    <string hpid="57750" name="no_files_text">57750^No files found on SD Card.</string>
+    
+    <string hpid="53363" name="cancel">53363^Cancel</string>
+    
+    <!--  <string hpid="125094" name="print">125094^Print</string> -->
+    
+    <string hpid="14927" name="printing_service_name">14927^PrintingService</string>
+    <string hpid="42899" name="printing_service_started">42899^Printing Service started</string>
+    <string hpid="4102" name="printing_service_running">4102^Printing Service running</string>
+    
+    
+    <!-- Preview constant settings -->
+    <string hpid="20552" name="PrintPreviewServiceNameStringID">20552^Print Preview Service</string>
+    <string hpid="36886" name="SelectedPrinterButtonStringID">36886^Setup</string>
+    <string hpid="62424" name="PrintButtonStringID">62424^Print</string>
+    
+    <!-- PrinterSetting constants -->
+    <string hpid="30947" name="AvailablePrintersStringID">30947^Available Printers</string>
+    <string hpid="2409" name="SetupDoneButtonStringID">2409^Done</string>
+    <string hpid="37035" name="PageSetupStringID">37035^Page Setup</string>
+    <string hpid="37376" name="PrintSettingsStringID">37376^Print Settings</string>
+    <string hpid="55970" name="PrinterSetupStringID">55970^Printer Setup</string>
+    <string hpid="26165" name="RefreshButtonStringID">26165^Refresh</string>
+    <string hpid="13209" name="CopiesStringID">13209^Copies</string>
+    <string hpid="26973" name="ColorModeStringID">26973^Color Mode</string>
+    <string hpid="30500" name="SearchingForPrintersStringID">30500^Searching for Printers</string>
+    <string hpid="61301" name="DummyNumCopiesStringID">61301^1</string>
+    <string hpid="26756" name="OtherPrinterByAddressStringID">26756^Other</string>
+
+    <string hpid="4182" name="PaperSizeLetterStringID">4182^US Letter</string>
+    <string hpid="27152" name="PaperSize4x6StringID">27152^4x6</string>
+    <string hpid="53595" name="PaperSize57xStringID">53595^5x7</string>
+    <string hpid="6652" name="MyPrinterStringID">6652^My Printer</string>
+    
+    <!-- Preview Gallery -->
+    <string hpid="40239" name="btnShowPreview">40239^Preview</string>
+    <string hpid="31853" name="txtViewSelectedImages">31853^Preview</string>
+    
+    <!-- HP Printing Testing -->
+    <string hpid="39890" name="btnPrintURL">39890^PRINT FROM URL</string>
+    <string hpid="46193" name="btnPrintFilePath">46193^PRINT FROM FILEPATH</string>
+    
+    <!-- Direct Printing -->
+    <string hpid="13178" name="btnDirectPrinting">13178^DIRECT PRINT</string>
+
+	<string hpid="17389" name="txt_ok">17389^ OK </string>
+    <string hpid="65179" name="txt_cancel">65179^Cancel</string>	
+    <string hpid="31603" name="txt_printer_preview_prompt">31603^Your print is being sent to the printer. Seeing progress by touch the notification area in the top bar.</string>
+    <string hpid="18137" name="txt_printer_preview">18137^Print Preview</string>
+	<string hpid="57296" name="txt_printer_cancel">57296^Your print has been cancelled</string>
+
+	<string hpid="64665" name="Unable_2_connect_2_Internet">64665^Unable to connect to Internet</string>
+	<string hpid="53712" name="No_Google_Calendar_Content_Found">53712^No Google Calendar Content Found</string>
+	<string hpid="37622" name="Unable_2_connect_2_Google_Calendar">37622^Unable to connect to Google Calendar</string>
+	<string hpid="33335" name="Unable_2_recognize_username_password">33335^Unable to recognize username or password</string>		
+	
+    <!-- Add Printer Selected Label -->
+    <string hpid="52723" name="NoPrinterSelectedStringID">52723^Select Printer</string>
+    <string hpid="59123" name="PrintInColorStringID">59123^Color</string>
+    <string hpid="9980" name="PrintInBWStringID">9980^Black &amp; White</string>	
+	
+<string hpid="54810" name="no_more_events_today">54810^No more events today</string>
+<string hpid="56998" name="downloading">56998^Downloading</string>
+<string hpid="32403" name="login">32403^Logining... </string>
+<string hpid="56210" name="unable_to_synchronize_with_google_calendar">56210^Unable to synchronize with\ngoogle calendar</string>
+<string hpid="18793" name="try_again">18793^Try Again</string>
+
+</resources>

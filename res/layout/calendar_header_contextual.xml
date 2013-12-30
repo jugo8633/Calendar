@@ -1,0 +1,20 @@
+<RelativeLayout android:id="@+id/rlCalendarHeaderContextual"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+
+<TextView android:id="@+id/tvCalendarHeaderBack" 
+android:text="@string/calendar" android:textSize="@android:dimen/HP.Type.14" android:textStyle="bold" android:textColor="@android:color/HP.Color.Gray1" android:width="315dip" android:layout_alignParentLeft="true" style="@android:style/HP.BackButton.Header" android:layout_width="120dp" android:layout_marginTop="10dp" android:layout_height="35dp" android:gravity="center"/>
+
+<TextView android:id="@+id/tvCalendarHeaderTitle" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:focusable="false" 
+android:focusableInTouchMode="false" 
+android:layout_marginTop="15dip" 
+android:text="@string/calendar" android:singleLine="true" android:textColor="@android:color/HP.Color.Gray1" android:textSize="@android:dimen/HP.Type.18" android:layout_marginLeft="16dip" android:layout_toRightOf="@+id/tvCalendarHeaderBack"/>
+
+<TextView android:layout_alignParentRight="true" 
+android:layout_marginTop="10dip" android:layout_marginRight="10dip" android:text="@string/logout" android:id="@+id/tvCalendarHeaderLogout" android:textSize="@android:dimen/HP.Type.14" android:width="80dip" android:layout_width="80dip" android:textColor="@android:color/HP.Color.Gray1" android:textStyle="bold" style="@android:style/HP.Button.Header" android:layout_height="35dp" android:gravity="center"/>
+
+</RelativeLayout>

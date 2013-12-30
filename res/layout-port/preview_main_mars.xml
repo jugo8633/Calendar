@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">                
+    
+    <RelativeLayout android:id="@+id/PreviewHeader"
+         android:layout_alignParentTop="true"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:background="@drawable/baseui_sub_header02" >
+         
+         <Button android:id="@+id/PreviewReturn" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:layout_alignParentLeft="true" 
+             android:background="@drawable/btn_baseui_btn1" 
+             android:textColor="@drawable/btn_baseui_txt" 
+             android:layout_marginTop="10dip" 
+             android:text="@string/app_name" 
+             android:textStyle="bold">
+         </Button>
+         
+         <TextView android:id="@+id/PreviewTitle" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/PreviewReturn"  
+             android:layout_marginLeft="15dip" 
+             android:textSize="18dip" 
+             android:layout_marginTop="15dip" 
+             android:textColor="#FFFFFF" android:text="@string/Printer_Preview">
+        </TextView>
+         
+    </RelativeLayout>      
+     
+    <RelativeLayout android:id="@+id/PreviewFooter"             
+         android:layout_alignParentBottom="true" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:background="@drawable/baseui_footer01" >
+         <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/SelectedPrinterButtonStringID"
+            android:id="@+id/SelectedPrinterButton" 
+            android:background="@drawable/btn_baseui_btn4"/>
+        <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/PrintButtonStringID"
+            android:id="@+id/PrintButton"
+            android:background="@drawable/btn_baseui_btn4"/>  
+    </RelativeLayout> 
+
+    <com.hp.ij.classes.printpreviewdata.PreviewGallery android:id="@+id/PreviewImageGallery"
+             android:layout_alignParentTop="false"
+             android:layout_above="@+id/PrintButton"
+             android:layout_width="fill_parent"
+             android:layout_height="400dip" android:layout_centerVertical="true"/>    
+    
+</RelativeLayout>                  

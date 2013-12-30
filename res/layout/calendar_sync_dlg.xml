@@ -1,0 +1,19 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/rlSyncFinishMain" 
+android:background="@drawable/content_popup_h_430x199_01" android:layout_height="100dp" android:layout_width="360dp">
+
+
+<TextView 
+android:id="@+id/tvSyncFinishCaption" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_centerHorizontal="true" 
+android:textStyle="bold" 
+android:gravity="center" 
+android:layout_marginTop="50dp" android:layout_centerVertical="true" android:text="@string/synchronizing_calendars" android:textColor="@android:color/HP.Color.Gray1" android:textSize="@android:dimen/HP.Type.14"/>
+
+
+
+
+</RelativeLayout>

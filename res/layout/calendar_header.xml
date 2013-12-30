@@ -1,0 +1,22 @@
+<RelativeLayout android:id="@+id/rlCalendarHeader" 
+android:layout_width="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_height="wrap_content">
+
+<TextView android:id="@+id/tvCalendarHeaderTitle" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="20dip" 
+android:layout_marginTop="15dip" 
+android:focusable="false" 
+android:focusableInTouchMode="false" android:text="@string/calendar" android:textSize="@android:dimen/HP.Type.18" android:textColor="@android:color/HP.Color.Gray1" android:gravity="center_horizontal"/>
+
+<TextView 
+android:id="@+id/tvCalendarHeaderLogout"
+android:layout_alignParentRight="true" 
+android:layout_marginTop="10dip" 
+android:layout_marginRight="10dip" 
+android:text="@string/logout" 
+android:textColor="@android:color/HP.Color.Gray1" android:textSize="@android:dimen/HP.Type.14" android:textStyle="bold" android:layout_width="80dip" style="@android:style/HP.Button.Header" android:layout_height="35dip" android:gravity="center"/>
+
+</RelativeLayout>
